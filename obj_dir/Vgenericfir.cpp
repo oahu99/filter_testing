@@ -5,8 +5,7 @@
 #include "Vgenericfir.h"
 #include "Vgenericfir__Syms.h"
 
-
-//--------------------
+//==========
 
 VL_CTOR_IMP(Vgenericfir) {
     Vgenericfir__Syms* __restrict vlSymsp = __VlSymsp = new Vgenericfir__Syms(this, name());
@@ -25,9 +24,6 @@ void Vgenericfir::__Vconfigure(Vgenericfir__Syms* vlSymsp, bool first) {
 Vgenericfir::~Vgenericfir() {
     delete __VlSymsp; __VlSymsp=NULL;
 }
-
-//--------------------
-
 
 void Vgenericfir::eval() {
     VL_DEBUG_IF(VL_DBG_MSGF("+++++TOP Evaluate Vgenericfir::eval\n"); );
@@ -87,9 +83,6 @@ void Vgenericfir::_eval_initial_loop(Vgenericfir__Syms* __restrict vlSymsp) {
         }
     } while (VL_UNLIKELY(__Vchange));
 }
-
-//--------------------
-// Internal Methods
 
 void Vgenericfir::_initial__TOP__1(Vgenericfir__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vgenericfir::_initial__TOP__1\n"); );

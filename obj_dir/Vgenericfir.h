@@ -10,6 +10,8 @@
 
 #include "verilated_heavy.h"
 
+//==========
+
 class Vgenericfir__Syms;
 class Vgenericfir_VerilatedVcd;
 
@@ -166,5 +168,8 @@ VL_MODULE(Vgenericfir) {
     static void traceFull(VerilatedVcd* vcdp, void* userthis, uint32_t code);
     static void traceChg(VerilatedVcd* vcdp, void* userthis, uint32_t code);
 } VL_ATTR_ALIGNED(VL_CACHE_LINE_BYTES);
+
+//----------
+
 
 #endif  // guard
