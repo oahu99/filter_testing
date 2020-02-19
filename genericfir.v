@@ -55,7 +55,7 @@ module	genericfir(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_result);
 	wire	[(IW-1):0] sample	[NTAPS:0];
 	wire	[(OW-1):0] result	[NTAPS:0];
 	wire		tap_wr;
-)
+
 	// The first sample in our sample chain is the sample we are given
 	assign	sample[0]	= i_sample;
 	// Initialize the partial summing accumulator with zero

@@ -8,9 +8,7 @@
 #ifndef _VGENERICFIR_H_
 #define _VGENERICFIR_H_  // guard
 
-#include "verilated_heavy.h"
-
-//==========
+#include "verilated.h"
 
 class Vgenericfir__Syms;
 class Vgenericfir_VerilatedVcd;
@@ -34,42 +32,79 @@ VL_MODULE(Vgenericfir) {
     
     // LOCAL SIGNALS
     // Internals; generally not touched by application code
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample;
-    SData/*15:0*/ genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product;
-    IData/*31:0*/ genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product;
-    SData/*15:0*/ genericfir__DOT__tap[17];
-    SData/*15:0*/ genericfir__DOT__tapout[17];
-    SData/*15:0*/ genericfir__DOT__sample[17];
-    QData/*38:0*/ genericfir__DOT__result[17];
+    // Anonymous structures to workaround compiler member-count bugs
+    struct {
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__0__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__1__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__2__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__3__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__4__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__5__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__6__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__7__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__8__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__9__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__10__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__11__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__12__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__13__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__14__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__15__KET____DOT__unused_tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample;
+        SData/*15:0*/ genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product;
+        IData/*31:0*/ genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product;
+    };
+    struct {
+        SData/*15:0*/ genericfir__DOT__tap[17];
+        SData/*15:0*/ genericfir__DOT__tapout[17];
+        SData/*15:0*/ genericfir__DOT__sample[17];
+        QData/*38:0*/ genericfir__DOT__result[17];
+    };
     
     // LOCAL VARIABLES
     // Internals; generally not touched by application code
@@ -159,7 +194,6 @@ VL_MODULE(Vgenericfir) {
     static void traceChgThis__3(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__4(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__5(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__6(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceFullThis(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
     static void traceFullThis__1(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
     static void traceInitThis(Vgenericfir__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
@@ -168,8 +202,5 @@ VL_MODULE(Vgenericfir) {
     static void traceFull(VerilatedVcd* vcdp, void* userthis, uint32_t code);
     static void traceChg(VerilatedVcd* vcdp, void* userthis, uint32_t code);
 } VL_ATTR_ALIGNED(VL_CACHE_LINE_BYTES);
-
-//----------
-
 
 #endif  // guard

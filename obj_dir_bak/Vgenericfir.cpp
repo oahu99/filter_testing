@@ -5,7 +5,8 @@
 #include "Vgenericfir.h"
 #include "Vgenericfir__Syms.h"
 
-//==========
+
+//--------------------
 
 VL_CTOR_IMP(Vgenericfir) {
     Vgenericfir__Syms* __restrict vlSymsp = __VlSymsp = new Vgenericfir__Syms(this, name());
@@ -24,6 +25,9 @@ void Vgenericfir::__Vconfigure(Vgenericfir__Syms* vlSymsp, bool first) {
 Vgenericfir::~Vgenericfir() {
     delete __VlSymsp; __VlSymsp=NULL;
 }
+
+//--------------------
+
 
 void Vgenericfir::eval() {
     VL_DEBUG_IF(VL_DBG_MSGF("+++++TOP Evaluate Vgenericfir::eval\n"); );
@@ -84,6 +88,9 @@ void Vgenericfir::_eval_initial_loop(Vgenericfir__Syms* __restrict vlSymsp) {
     } while (VL_UNLIKELY(__Vchange));
 }
 
+//--------------------
+// Internal Methods
+
 void Vgenericfir::_initial__TOP__1(Vgenericfir__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vgenericfir::_initial__TOP__1\n"); );
     Vgenericfir* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
@@ -136,40 +143,22 @@ void Vgenericfir::_initial__TOP__1(Vgenericfir__Syms* __restrict vlSymsp) {
     vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample = 0U;
-    VL_READMEM_N(true, 16, 17, 0, std::string("taps.dat")
-                 , vlTOPp->genericfir__DOT__tap, 0, ~VL_ULL(0));
-    vlTOPp->genericfir__DOT__tapout[0U] = vlTOPp->genericfir__DOT__tap
-        [0xfU];
-    vlTOPp->genericfir__DOT__tapout[1U] = vlTOPp->genericfir__DOT__tap
-        [0xeU];
-    vlTOPp->genericfir__DOT__tapout[2U] = vlTOPp->genericfir__DOT__tap
-        [0xdU];
-    vlTOPp->genericfir__DOT__tapout[3U] = vlTOPp->genericfir__DOT__tap
-        [0xcU];
-    vlTOPp->genericfir__DOT__tapout[4U] = vlTOPp->genericfir__DOT__tap
-        [0xbU];
-    vlTOPp->genericfir__DOT__tapout[5U] = vlTOPp->genericfir__DOT__tap
-        [0xaU];
-    vlTOPp->genericfir__DOT__tapout[6U] = vlTOPp->genericfir__DOT__tap
-        [9U];
-    vlTOPp->genericfir__DOT__tapout[7U] = vlTOPp->genericfir__DOT__tap
-        [8U];
-    vlTOPp->genericfir__DOT__tapout[8U] = vlTOPp->genericfir__DOT__tap
-        [7U];
-    vlTOPp->genericfir__DOT__tapout[9U] = vlTOPp->genericfir__DOT__tap
-        [6U];
-    vlTOPp->genericfir__DOT__tapout[0xaU] = vlTOPp->genericfir__DOT__tap
-        [5U];
-    vlTOPp->genericfir__DOT__tapout[0xbU] = vlTOPp->genericfir__DOT__tap
-        [4U];
-    vlTOPp->genericfir__DOT__tapout[0xcU] = vlTOPp->genericfir__DOT__tap
-        [3U];
-    vlTOPp->genericfir__DOT__tapout[0xdU] = vlTOPp->genericfir__DOT__tap
-        [2U];
-    vlTOPp->genericfir__DOT__tapout[0xeU] = vlTOPp->genericfir__DOT__tap
-        [1U];
-    vlTOPp->genericfir__DOT__tapout[0xfU] = vlTOPp->genericfir__DOT__tap
-        [0U];
+    vlTOPp->genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
 }
 
 VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict vlSymsp) {
@@ -710,9 +699,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0xfU]));
@@ -724,9 +711,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [1U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0xeU]));
@@ -738,9 +723,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [2U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0xdU]));
@@ -752,9 +735,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [3U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0xcU]));
@@ -766,9 +747,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [4U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0xbU]));
@@ -780,9 +759,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [5U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0xaU]));
@@ -794,9 +771,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [6U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [9U]));
@@ -808,9 +783,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [7U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [8U]));
@@ -822,9 +795,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [8U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [7U]));
@@ -836,9 +807,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [9U]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [6U]));
@@ -850,9 +819,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0xaU]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [5U]));
@@ -864,9 +831,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0xbU]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [4U]));
@@ -878,9 +843,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0xcU]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [3U]));
@@ -892,9 +855,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0xdU]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [2U]));
@@ -906,9 +867,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0xeU]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [1U]));
@@ -920,9 +879,7 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     } else {
         if (vlTOPp->i_ce) {
             vlTOPp->genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
-                                                      vlTOPp->genericfir__DOT__tap
-                                                      [0xfU]), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->genericfir__DOT__sample
                                             [0U]));
@@ -946,6 +903,118 @@ VL_INLINE_OPT void Vgenericfir::_sequent__TOP__2(Vgenericfir__Syms* __restrict v
     vlTOPp->genericfir__DOT__sample[0xeU] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber8;
     vlTOPp->genericfir__DOT__sample[0xfU] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8;
     vlTOPp->genericfir__DOT__sample[0x10U] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8;
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[1U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[2U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[3U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[4U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[5U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[6U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[7U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[8U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[9U];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0xaU];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0xbU];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0xcU];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0xdU];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0xeU];
+    }
+    if (vlTOPp->i_tap_wr) {
+        vlTOPp->genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap 
+            = vlTOPp->genericfir__DOT__tap[0xfU];
+    }
+    vlTOPp->genericfir__DOT__tapout[0xfU] = vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xeU] = vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xdU] = vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xcU] = vlTOPp->genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xbU] = vlTOPp->genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xaU] = vlTOPp->genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[9U] = vlTOPp->genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[8U] = vlTOPp->genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[7U] = vlTOPp->genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[6U] = vlTOPp->genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[5U] = vlTOPp->genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[4U] = vlTOPp->genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[3U] = vlTOPp->genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[2U] = vlTOPp->genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[1U] = vlTOPp->genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0U] = vlTOPp->genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tap[0xfU] = vlTOPp->genericfir__DOT__tapout
+        [1U];
+    vlTOPp->genericfir__DOT__tap[0xeU] = vlTOPp->genericfir__DOT__tapout
+        [2U];
+    vlTOPp->genericfir__DOT__tap[0xdU] = vlTOPp->genericfir__DOT__tapout
+        [3U];
+    vlTOPp->genericfir__DOT__tap[0xcU] = vlTOPp->genericfir__DOT__tapout
+        [4U];
+    vlTOPp->genericfir__DOT__tap[0xbU] = vlTOPp->genericfir__DOT__tapout
+        [5U];
+    vlTOPp->genericfir__DOT__tap[0xaU] = vlTOPp->genericfir__DOT__tapout
+        [6U];
+    vlTOPp->genericfir__DOT__tap[9U] = vlTOPp->genericfir__DOT__tapout
+        [7U];
+    vlTOPp->genericfir__DOT__tap[8U] = vlTOPp->genericfir__DOT__tapout
+        [8U];
+    vlTOPp->genericfir__DOT__tap[7U] = vlTOPp->genericfir__DOT__tapout
+        [9U];
+    vlTOPp->genericfir__DOT__tap[6U] = vlTOPp->genericfir__DOT__tapout
+        [0xaU];
+    vlTOPp->genericfir__DOT__tap[5U] = vlTOPp->genericfir__DOT__tapout
+        [0xbU];
+    vlTOPp->genericfir__DOT__tap[4U] = vlTOPp->genericfir__DOT__tapout
+        [0xcU];
+    vlTOPp->genericfir__DOT__tap[3U] = vlTOPp->genericfir__DOT__tapout
+        [0xdU];
+    vlTOPp->genericfir__DOT__tap[2U] = vlTOPp->genericfir__DOT__tapout
+        [0xeU];
+    vlTOPp->genericfir__DOT__tap[1U] = vlTOPp->genericfir__DOT__tapout
+        [0xfU];
+    vlTOPp->genericfir__DOT__tap[0U] = vlTOPp->genericfir__DOT__tapout
+        [0x10U];
 }
 
 void Vgenericfir::_settle__TOP__3(Vgenericfir__Syms* __restrict vlSymsp) {
@@ -954,6 +1023,7 @@ void Vgenericfir::_settle__TOP__3(Vgenericfir__Syms* __restrict vlSymsp) {
     // Body
     vlTOPp->genericfir__DOT__result[0U] = VL_ULL(0);
     vlTOPp->genericfir__DOT__sample[0U] = vlTOPp->i_sample;
+    vlTOPp->genericfir__DOT__tap[0U] = vlTOPp->i_tap;
     vlTOPp->genericfir__DOT__sample[1U] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8;
     vlTOPp->genericfir__DOT__sample[2U] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber8;
     vlTOPp->genericfir__DOT__sample[3U] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber8;
@@ -986,39 +1056,55 @@ void Vgenericfir::_settle__TOP__3(Vgenericfir__Syms* __restrict vlSymsp) {
     vlTOPp->genericfir__DOT__result[0xeU] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber10;
     vlTOPp->genericfir__DOT__result[0xfU] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber10;
     vlTOPp->genericfir__DOT__result[0x10U] = vlTOPp->genericfir__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10;
-    vlTOPp->genericfir__DOT__tapout[0U] = vlTOPp->genericfir__DOT__tap
-        [0xfU];
-    vlTOPp->genericfir__DOT__tapout[1U] = vlTOPp->genericfir__DOT__tap
-        [0xeU];
-    vlTOPp->genericfir__DOT__tapout[2U] = vlTOPp->genericfir__DOT__tap
-        [0xdU];
-    vlTOPp->genericfir__DOT__tapout[3U] = vlTOPp->genericfir__DOT__tap
-        [0xcU];
-    vlTOPp->genericfir__DOT__tapout[4U] = vlTOPp->genericfir__DOT__tap
-        [0xbU];
-    vlTOPp->genericfir__DOT__tapout[5U] = vlTOPp->genericfir__DOT__tap
-        [0xaU];
-    vlTOPp->genericfir__DOT__tapout[6U] = vlTOPp->genericfir__DOT__tap
-        [9U];
-    vlTOPp->genericfir__DOT__tapout[7U] = vlTOPp->genericfir__DOT__tap
-        [8U];
-    vlTOPp->genericfir__DOT__tapout[8U] = vlTOPp->genericfir__DOT__tap
-        [7U];
-    vlTOPp->genericfir__DOT__tapout[9U] = vlTOPp->genericfir__DOT__tap
-        [6U];
-    vlTOPp->genericfir__DOT__tapout[0xaU] = vlTOPp->genericfir__DOT__tap
-        [5U];
-    vlTOPp->genericfir__DOT__tapout[0xbU] = vlTOPp->genericfir__DOT__tap
-        [4U];
-    vlTOPp->genericfir__DOT__tapout[0xcU] = vlTOPp->genericfir__DOT__tap
-        [3U];
-    vlTOPp->genericfir__DOT__tapout[0xdU] = vlTOPp->genericfir__DOT__tap
-        [2U];
-    vlTOPp->genericfir__DOT__tapout[0xeU] = vlTOPp->genericfir__DOT__tap
-        [1U];
-    vlTOPp->genericfir__DOT__tapout[0xfU] = vlTOPp->genericfir__DOT__tap
-        [0U];
+    vlTOPp->genericfir__DOT__tapout[0U] = vlTOPp->genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[1U] = vlTOPp->genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[2U] = vlTOPp->genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[3U] = vlTOPp->genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[4U] = vlTOPp->genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[5U] = vlTOPp->genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[6U] = vlTOPp->genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[7U] = vlTOPp->genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[8U] = vlTOPp->genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[9U] = vlTOPp->genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xaU] = vlTOPp->genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xbU] = vlTOPp->genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xcU] = vlTOPp->genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xdU] = vlTOPp->genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xeU] = vlTOPp->genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+    vlTOPp->genericfir__DOT__tapout[0xfU] = vlTOPp->genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
     vlTOPp->o_result = vlTOPp->genericfir__DOT__result
+        [0x10U];
+    vlTOPp->genericfir__DOT__tap[0xfU] = vlTOPp->genericfir__DOT__tapout
+        [1U];
+    vlTOPp->genericfir__DOT__tap[0xeU] = vlTOPp->genericfir__DOT__tapout
+        [2U];
+    vlTOPp->genericfir__DOT__tap[0xdU] = vlTOPp->genericfir__DOT__tapout
+        [3U];
+    vlTOPp->genericfir__DOT__tap[0xcU] = vlTOPp->genericfir__DOT__tapout
+        [4U];
+    vlTOPp->genericfir__DOT__tap[0xbU] = vlTOPp->genericfir__DOT__tapout
+        [5U];
+    vlTOPp->genericfir__DOT__tap[0xaU] = vlTOPp->genericfir__DOT__tapout
+        [6U];
+    vlTOPp->genericfir__DOT__tap[9U] = vlTOPp->genericfir__DOT__tapout
+        [7U];
+    vlTOPp->genericfir__DOT__tap[8U] = vlTOPp->genericfir__DOT__tapout
+        [8U];
+    vlTOPp->genericfir__DOT__tap[7U] = vlTOPp->genericfir__DOT__tapout
+        [9U];
+    vlTOPp->genericfir__DOT__tap[6U] = vlTOPp->genericfir__DOT__tapout
+        [0xaU];
+    vlTOPp->genericfir__DOT__tap[5U] = vlTOPp->genericfir__DOT__tapout
+        [0xbU];
+    vlTOPp->genericfir__DOT__tap[4U] = vlTOPp->genericfir__DOT__tapout
+        [0xcU];
+    vlTOPp->genericfir__DOT__tap[3U] = vlTOPp->genericfir__DOT__tapout
+        [0xdU];
+    vlTOPp->genericfir__DOT__tap[2U] = vlTOPp->genericfir__DOT__tapout
+        [0xeU];
+    vlTOPp->genericfir__DOT__tap[1U] = vlTOPp->genericfir__DOT__tapout
+        [0xfU];
+    vlTOPp->genericfir__DOT__tap[0U] = vlTOPp->genericfir__DOT__tapout
         [0x10U];
 }
 
@@ -1027,6 +1113,7 @@ VL_INLINE_OPT void Vgenericfir::_combo__TOP__4(Vgenericfir__Syms* __restrict vlS
     Vgenericfir* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->genericfir__DOT__sample[0U] = vlTOPp->i_sample;
+    vlTOPp->genericfir__DOT__tap[0U] = vlTOPp->i_tap;
 }
 
 void Vgenericfir::_eval(Vgenericfir__Syms* __restrict vlSymsp) {
@@ -1115,67 +1202,99 @@ void Vgenericfir::_ctor_var_reset() {
     }}
     genericfir__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__0__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__1__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__2__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__3__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__3__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__3__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__4__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__4__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__4__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__5__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__5__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__5__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__6__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__6__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__6__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__7__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__7__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__7__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__8__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__8__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__8__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__9__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__9__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__9__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__10__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__10__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__10__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__11__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__11__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__11__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__12__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__12__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__12__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__13__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__14__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     genericfir__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    genericfir__DOT__FILTER__BRA__15__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    genericfir__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     __Vm_traceActivity = 0;
 }

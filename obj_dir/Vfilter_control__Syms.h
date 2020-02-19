@@ -4,16 +4,16 @@
 // Internal details; most calling programs do not need this header,
 // unless using verilator public meta comments.
 
-#ifndef _VGENERICFIR__SYMS_H_
-#define _VGENERICFIR__SYMS_H_  // guard
+#ifndef _VFILTER_CONTROL__SYMS_H_
+#define _VFILTER_CONTROL__SYMS_H_  // guard
 
-#include "verilated_heavy.h"
+#include "verilated.h"
 
 // INCLUDE MODULE CLASSES
-#include "Vgenericfir.h"
+#include "Vfilter_control.h"
 
 // SYMS CLASS
-class Vgenericfir__Syms : public VerilatedSyms {
+class Vfilter_control__Syms : public VerilatedSyms {
   public:
     
     // LOCAL STATE
@@ -22,11 +22,11 @@ class Vgenericfir__Syms : public VerilatedSyms {
     bool __Vm_didInit;
     
     // SUBCELL STATE
-    Vgenericfir*                   TOPp;
+    Vfilter_control*               TOPp;
     
     // CREATORS
-    Vgenericfir__Syms(Vgenericfir* topp, const char* namep);
-    ~Vgenericfir__Syms() {}
+    Vfilter_control__Syms(Vfilter_control* topp, const char* namep);
+    ~Vfilter_control__Syms() {}
     
     // METHODS
     inline const char* name() { return __Vm_namep; }
