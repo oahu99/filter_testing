@@ -1419,6 +1419,11 @@ void Vfilter_control::_ctor_var_reset() {
     filter_control__DOT__next_state = VL_RAND_RESET_I(5);
     filter_control__DOT__i_idx = VL_RAND_RESET_I(5);
     filter_control__DOT__i_tap_wr = VL_RAND_RESET_I(1);
+    filter_control__DOT__coeff_0__DOT__o_mem_ready = VL_RAND_RESET_I(1);
+    filter_control__DOT__coeff_0__DOT__AVL_ADDRESS = VL_RAND_RESET_I(16);
+    filter_control__DOT__coeff_0__DOT__AVL_DATA = VL_RAND_RESET_I(16);
+    filter_control__DOT__coeff_0__DOT__AVL_WRITE = VL_RAND_RESET_I(1);
+    filter_control__DOT__coeff_0__DOT__AVL_READ = VL_RAND_RESET_I(1);
     { int __Vi0=0; for (; __Vi0<17; ++__Vi0) {
             filter_control__DOT__filter_0__DOT__tap[__Vi0] = VL_RAND_RESET_I(16);
     }}

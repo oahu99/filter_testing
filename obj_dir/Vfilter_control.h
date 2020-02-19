@@ -37,6 +37,11 @@ VL_MODULE(Vfilter_control) {
         CData/*4:0*/ filter_control__DOT__next_state;
         CData/*4:0*/ filter_control__DOT__i_idx;
         CData/*0:0*/ filter_control__DOT__i_tap_wr;
+        CData/*0:0*/ filter_control__DOT__coeff_0__DOT__o_mem_ready;
+        CData/*0:0*/ filter_control__DOT__coeff_0__DOT__AVL_WRITE;
+        CData/*0:0*/ filter_control__DOT__coeff_0__DOT__AVL_READ;
+        SData/*15:0*/ filter_control__DOT__coeff_0__DOT__AVL_ADDRESS;
+        SData/*15:0*/ filter_control__DOT__coeff_0__DOT__AVL_DATA;
         SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__unused_tap;
         SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__unused_tap;
         SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__unused_tap;
@@ -92,13 +97,13 @@ VL_MODULE(Vfilter_control) {
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product;
+    };
+    struct {
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product;
-    };
-    struct {
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product;

@@ -45,7 +45,7 @@ always_comb begin
 	endcase
 end
 
-coefficients coeff_0 (.i_idx, .o_tap(i_tap)); // memory with coefficients to load
+coefficients coeff_0 (.i_idx, .i_clk, .o_tap(i_tap)); // memory with coefficients to load
 
 genericfir filter_0 (.i_clk, .i_reset(~i_reset), .i_tap_wr, .i_tap, .i_ce, .i_sample, .o_result); // top level for FIR filter
 
