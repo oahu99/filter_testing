@@ -7,6 +7,7 @@
 #include "verilated.h"
 #include "verilated_vcd_c.h"
 #include "tbclock.h"
+#include "i2s_slave.hpp"
 
 using namespace std;
 
@@ -19,7 +20,7 @@ void tick (Vfilter_control* tb, VerilatedVcdC* tfp, unsigned long int &counter, 
 
 	tb->eval();
 
-	sample_clk->advance(mintime);
+	tb->i2s_sck = sample_clk->advance(mintime);
 	tb->i_clk = system_clk->advance(mintime);
 
 	counter += mintime;
@@ -34,7 +35,8 @@ void tick (Vfilter_control* tb, VerilatedVcdC* tfp, unsigned long int &counter, 
 int main() {
 
 	TBCLOCK* system_clk = new TBCLOCK(20000); // 50 MHz
-	TBCLOCK* sample_clk = new TBCLOCK(1000000);// TBCLOCK(20833333); // 48.0 KHz sample clock
+	TBCLOCK* sample_clk = new TBCLOCK(20833333); // i2s bit clock
+	I2S_SLAVE* i2s_slave = new I2S_SLAVE; // i2s microphone simulator
 
 	Vfilter_control* tb = new Vfilter_control;
 	Verilated::traceEverOn(true);
@@ -64,6 +66,8 @@ int main() {
 	
 	int i = 0;
 
+	i2s_slave->i2s_init(); // initialize data vectors for i2s sim
+
 	while (i < left_vector.size()) { 			// loop over entire input vector for simulation
 
 		tick(tb, tfp, counter, system_clk, sample_clk); // advance clocks
@@ -73,13 +77,17 @@ int main() {
 
 		if (sample_clk->falling_edge()) { // send new data to filter
 				
-			tb->i_sample = left_vector[i];
+			// tb->i_sample = left_vector[i];
+			// tb->i_ce = 1;
+			// cout << tb->o_result << "\n";
 
-			tb->i_ce = 1;
+			i2s_slave->i2s_stream();
+			tb->i2s_sda = i2s_slave->sda;
+	        tb->i2s_ws = (i2s_slave->next_state == I2S_SLAVE::tx_r) ? 1 : 0;
 
-			cout << tb->o_result << "\n";
 
 			i++;
+
 		}
 
 		else
