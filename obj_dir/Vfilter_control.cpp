@@ -5,8 +5,7 @@
 #include "Vfilter_control.h"
 #include "Vfilter_control__Syms.h"
 
-
-//--------------------
+//==========
 CData/*4:0*/ Vfilter_control::__Vtable1_filter_control__DOT__i_idx[64];
 CData/*4:0*/ Vfilter_control::__Vtable1_filter_control__DOT__next_state[64];
 CData/*0:0*/ Vfilter_control::__Vtable1_filter_control__DOT__i_tap_wr[64];
@@ -28,9 +27,6 @@ void Vfilter_control::__Vconfigure(Vfilter_control__Syms* vlSymsp, bool first) {
 Vfilter_control::~Vfilter_control() {
     delete __VlSymsp; __VlSymsp=NULL;
 }
-
-//--------------------
-
 
 void Vfilter_control::eval() {
     VL_DEBUG_IF(VL_DBG_MSGF("+++++TOP Evaluate Vfilter_control::eval\n"); );
@@ -90,9 +86,6 @@ void Vfilter_control::_eval_initial_loop(Vfilter_control__Syms* __restrict vlSym
         }
     } while (VL_UNLIKELY(__Vchange));
 }
-
-//--------------------
-// Internal Methods
 
 void Vfilter_control::_initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_initial__TOP__1\n"); );
@@ -189,10 +182,11 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__3(Vfilter_control__Syms* __re
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__3\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->__Vdly__filter_control__DOT__i_ce_flag 
-        = vlTOPp->filter_control__DOT__i_ce_flag;
     vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd 
         = vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd;
+    if ((1U & (~ (IData)(vlTOPp->i_reset)))) {
+        vlTOPp->filter_control__DOT__i_ce_flag_2 = 0U;
+    }
     if (((~ (IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd)) 
          & (IData)(vlTOPp->filter_control__DOT__i2s_wsp))) {
         vlTOPp->filter_control__DOT__right_channel 
@@ -1172,8 +1166,16 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
         [0x10U];
 }
 
-void Vfilter_control::_settle__TOP__5(Vfilter_control__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_settle__TOP__5\n"); );
+VL_INLINE_OPT void Vfilter_control::_sequent__TOP__5(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__5\n"); );
+    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1 
+        = vlTOPp->filter_control__DOT__i_ce_flag_1;
+}
+
+void Vfilter_control::_settle__TOP__6(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_settle__TOP__6\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
     WData/*255:0*/ __Vtemp1[8];
@@ -1360,33 +1362,19 @@ void Vfilter_control::_settle__TOP__5(Vfilter_control__Syms* __restrict vlSymsp)
         [0x10U];
 }
 
-VL_INLINE_OPT void Vfilter_control::_sequent__TOP__6(Vfilter_control__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__6\n"); );
+VL_INLINE_OPT void Vfilter_control::_sequent__TOP__7(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__7\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[0U] 
         = vlTOPp->filter_control__DOT__left_channel;
     if ((1U & (~ (IData)(vlTOPp->i_reset)))) {
-        vlTOPp->__Vdly__filter_control__DOT__i_ce_flag = 0U;
+        vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1 = 0U;
     }
-    if (((IData)(vlTOPp->filter_control__DOT__i2s_wsp) 
-         & (~ (IData)(vlTOPp->i2s_ws)))) {
-        vlTOPp->i_ce = 1U;
-        vlTOPp->__Vdly__filter_control__DOT__i_ce_flag = 1U;
-    }
-    if (vlTOPp->filter_control__DOT__i_ce_flag) {
-        vlTOPp->i_ce = 0U;
-        if ((1U & (~ (IData)(vlTOPp->filter_control__DOT__i2s_wsp)))) {
-            vlTOPp->__Vdly__filter_control__DOT__i_ce_flag = 0U;
-        }
-    }
-    vlTOPp->filter_control__DOT__i_ce_flag = vlTOPp->__Vdly__filter_control__DOT__i_ce_flag;
-    vlTOPp->filter_control__DOT__i2s_wsp = ((IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd) 
-                                            ^ (IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd));
 }
 
-VL_INLINE_OPT void Vfilter_control::_combo__TOP__7(Vfilter_control__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_combo__TOP__7\n"); );
+VL_INLINE_OPT void Vfilter_control::_combo__TOP__8(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_combo__TOP__8\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
     WData/*255:0*/ __Vtemp2[8];
@@ -1422,6 +1410,38 @@ VL_INLINE_OPT void Vfilter_control::_combo__TOP__7(Vfilter_control__Syms* __rest
                                    << 4U)))));
 }
 
+VL_INLINE_OPT void Vfilter_control::_sequent__TOP__9(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__9\n"); );
+    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    if (((IData)(vlTOPp->filter_control__DOT__i2s_wsp) 
+         & (~ (IData)(vlTOPp->i2s_ws)))) {
+        vlTOPp->i_ce = 1U;
+        vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1 = 1U;
+    }
+    if (vlTOPp->filter_control__DOT__i_ce_flag_1) {
+        vlTOPp->i_ce = 0U;
+        if ((1U & (~ (IData)(vlTOPp->filter_control__DOT__i2s_wsp)))) {
+            vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1 = 0U;
+        }
+    }
+}
+
+VL_INLINE_OPT void Vfilter_control::_sequent__TOP__10(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__10\n"); );
+    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->filter_control__DOT__i_ce_flag_1 = vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1;
+}
+
+VL_INLINE_OPT void Vfilter_control::_sequent__TOP__11(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__11\n"); );
+    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->filter_control__DOT__i2s_wsp = ((IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd) 
+                                            ^ (IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd));
+}
+
 void Vfilter_control::_eval(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_eval\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
@@ -1438,12 +1458,28 @@ void Vfilter_control::_eval(Vfilter_control__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__4(vlSymsp);
         vlTOPp->__Vm_traceActivity = (8U | vlTOPp->__Vm_traceActivity);
     }
+    if ((((IData)(vlTOPp->i2s_sck) & (~ (IData)(vlTOPp->__Vclklast__TOP__i2s_sck))) 
+         | ((IData)(vlTOPp->i_clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__i_clk))))) {
+        vlTOPp->_sequent__TOP__5(vlSymsp);
+    }
     if (((IData)(vlTOPp->i2s_sck) & (~ (IData)(vlTOPp->__Vclklast__TOP__i2s_sck)))) {
-        vlTOPp->_sequent__TOP__6(vlSymsp);
+        vlTOPp->_sequent__TOP__7(vlSymsp);
         vlTOPp->__Vm_traceActivity = (0x10U | vlTOPp->__Vm_traceActivity);
     }
-    vlTOPp->_combo__TOP__7(vlSymsp);
+    vlTOPp->_combo__TOP__8(vlSymsp);
     vlTOPp->__Vm_traceActivity = (0x20U | vlTOPp->__Vm_traceActivity);
+    if (((IData)(vlTOPp->i_clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__i_clk)))) {
+        vlTOPp->_sequent__TOP__9(vlSymsp);
+    }
+    if ((((IData)(vlTOPp->i2s_sck) & (~ (IData)(vlTOPp->__Vclklast__TOP__i2s_sck))) 
+         | ((IData)(vlTOPp->i_clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__i_clk))))) {
+        vlTOPp->_sequent__TOP__10(vlSymsp);
+        vlTOPp->__Vm_traceActivity = (0x40U | vlTOPp->__Vm_traceActivity);
+    }
+    if (((IData)(vlTOPp->i2s_sck) & (~ (IData)(vlTOPp->__Vclklast__TOP__i2s_sck)))) {
+        vlTOPp->_sequent__TOP__11(vlSymsp);
+        vlTOPp->__Vm_traceActivity = (0x80U | vlTOPp->__Vm_traceActivity);
+    }
     // Final
     vlTOPp->__Vclklast__TOP__i2s_sck = vlTOPp->i2s_sck;
     vlTOPp->__Vclklast__TOP__i_clk = vlTOPp->i_clk;
@@ -1470,7 +1506,7 @@ void Vfilter_control::_eval_settle(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_eval_settle\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->_settle__TOP__5(vlSymsp);
+    vlTOPp->_settle__TOP__6(vlSymsp);
     vlTOPp->__Vm_traceActivity = (1U | vlTOPp->__Vm_traceActivity);
 }
 
@@ -1520,7 +1556,8 @@ void Vfilter_control::_ctor_var_reset() {
     filter_control__DOT__left_channel = VL_RAND_RESET_I(16);
     filter_control__DOT__right_channel = VL_RAND_RESET_I(16);
     filter_control__DOT__i2s_wsp = VL_RAND_RESET_I(1);
-    filter_control__DOT__i_ce_flag = VL_RAND_RESET_I(1);
+    filter_control__DOT__i_ce_flag_1 = VL_RAND_RESET_I(1);
+    filter_control__DOT__i_ce_flag_2 = VL_RAND_RESET_I(1);
     filter_control__DOT__coeff_0__DOT__o_mem_ready = VL_RAND_RESET_I(1);
     filter_control__DOT__coeff_0__DOT__AVL_ADDRESS = VL_RAND_RESET_I(16);
     filter_control__DOT__coeff_0__DOT__AVL_DATA = VL_RAND_RESET_I(16);
@@ -1831,6 +1868,6 @@ void Vfilter_control::_ctor_var_reset() {
     __Vtable1_filter_control__DOT__i_tap_wr[61] = 1U;
     __Vtable1_filter_control__DOT__i_tap_wr[62] = 1U;
     __Vtable1_filter_control__DOT__i_tap_wr[63] = 1U;
-    __Vdly__filter_control__DOT__i_ce_flag = VL_RAND_RESET_I(1);
+    __Vdly__filter_control__DOT__i_ce_flag_1 = VL_RAND_RESET_I(1);
     __Vm_traceActivity = 0;
 }

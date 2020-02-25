@@ -7,8 +7,9 @@ module i2s_master #
    input sck,
    input ws,
    input sd,
+   output wire wsp,
    output reg [width-1:0] data_left,
-	output reg [width-1:0] data_right
+	 output reg [width-1:0] data_right
    );
 
  
@@ -21,7 +22,7 @@ module i2s_master #
   always @(posedge sck)
     wsdd <= wsd;
 
-  wire wsp = wsd ^ wsdd;
+  assign wsp = wsd ^ wsdd;
 
   reg [$clog2(width+1)-1:0] counter;
   always @(negedge sck)

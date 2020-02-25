@@ -10,6 +10,8 @@
 
 #include "verilated.h"
 
+//==========
+
 class Vfilter_control__Syms;
 class Vfilter_control_VerilatedVcd;
 
@@ -40,7 +42,8 @@ VL_MODULE(Vfilter_control) {
         CData/*4:0*/ filter_control__DOT__i_idx;
         CData/*0:0*/ filter_control__DOT__i_tap_wr;
         CData/*0:0*/ filter_control__DOT__i2s_wsp;
-        CData/*0:0*/ filter_control__DOT__i_ce_flag;
+        CData/*0:0*/ filter_control__DOT__i_ce_flag_1;
+        CData/*0:0*/ filter_control__DOT__i_ce_flag_2;
         CData/*0:0*/ filter_control__DOT__coeff_0__DOT__o_mem_ready;
         CData/*0:0*/ filter_control__DOT__coeff_0__DOT__AVL_WRITE;
         CData/*0:0*/ filter_control__DOT__coeff_0__DOT__AVL_READ;
@@ -98,9 +101,9 @@ VL_MODULE(Vfilter_control) {
         SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample;
         SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap;
         SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample;
-        SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
     };
     struct {
+        SData/*15:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
         SData/*15:0*/ filter_control__DOT__i2s_m0__DOT__shift;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product;
         IData/*31:0*/ filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product;
@@ -127,7 +130,7 @@ VL_MODULE(Vfilter_control) {
     // LOCAL VARIABLES
     // Internals; generally not touched by application code
     CData/*5:0*/ __Vtableidx1;
-    CData/*0:0*/ __Vdly__filter_control__DOT__i_ce_flag;
+    CData/*0:0*/ __Vdly__filter_control__DOT__i_ce_flag_1;
     CData/*0:0*/ __Vclklast__TOP__i2s_sck;
     CData/*0:0*/ __Vclklast__TOP__i_clk;
     SData/*15:0*/ filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8;
@@ -198,7 +201,7 @@ VL_MODULE(Vfilter_control) {
   private:
     static QData _change_request(Vfilter_control__Syms* __restrict vlSymsp);
   public:
-    static void _combo__TOP__7(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _combo__TOP__8(Vfilter_control__Syms* __restrict vlSymsp);
   private:
     void _ctor_var_reset() VL_ATTR_COLD;
   public:
@@ -211,11 +214,15 @@ VL_MODULE(Vfilter_control) {
     static void _eval_initial(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void _eval_settle(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void _initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
+    static void _sequent__TOP__10(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _sequent__TOP__11(Vfilter_control__Syms* __restrict vlSymsp);
     static void _sequent__TOP__2(Vfilter_control__Syms* __restrict vlSymsp);
     static void _sequent__TOP__3(Vfilter_control__Syms* __restrict vlSymsp);
     static void _sequent__TOP__4(Vfilter_control__Syms* __restrict vlSymsp);
-    static void _sequent__TOP__6(Vfilter_control__Syms* __restrict vlSymsp);
-    static void _settle__TOP__5(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
+    static void _sequent__TOP__5(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _sequent__TOP__7(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _sequent__TOP__9(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _settle__TOP__6(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void traceChgThis(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__10(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__11(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
@@ -236,5 +243,8 @@ VL_MODULE(Vfilter_control) {
     static void traceFull(VerilatedVcd* vcdp, void* userthis, uint32_t code);
     static void traceChg(VerilatedVcd* vcdp, void* userthis, uint32_t code);
 } VL_ATTR_ALIGNED(VL_CACHE_LINE_BYTES);
+
+//----------
+
 
 #endif  // guard

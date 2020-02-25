@@ -48,12 +48,12 @@ void Vfilter_control::traceChgThis(Vfilter_control__Syms* __restrict vlSymsp, Ve
         }
         if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity 
                                | (vlTOPp->__Vm_traceActivity 
-                                  >> 4U))))) {
+                                  >> 5U))))) {
             vlTOPp->traceChgThis__6(vlSymsp, vcdp, code);
         }
         if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity 
                                | (vlTOPp->__Vm_traceActivity 
-                                  >> 5U))))) {
+                                  >> 7U))))) {
             vlTOPp->traceChgThis__7(vlSymsp, vcdp, code);
         }
         if (VL_UNLIKELY((2U & vlTOPp->__Vm_traceActivity))) {
@@ -65,7 +65,7 @@ void Vfilter_control::traceChgThis(Vfilter_control__Syms* __restrict vlSymsp, Ve
         if (VL_UNLIKELY((8U & vlTOPp->__Vm_traceActivity))) {
             vlTOPp->traceChgThis__10(vlSymsp, vcdp, code);
         }
-        if (VL_UNLIKELY((0x10U & vlTOPp->__Vm_traceActivity))) {
+        if (VL_UNLIKELY((0x40U & vlTOPp->__Vm_traceActivity))) {
             vlTOPp->traceChgThis__11(vlSymsp, vcdp, code);
         }
         vlTOPp->traceChgThis__12(vlSymsp, vcdp, code);
@@ -343,24 +343,14 @@ void Vfilter_control::traceChgThis__6(Vfilter_control__Syms* __restrict vlSymsp,
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c = code;
     if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-        vcdp->chgBit(c+1841,(vlTOPp->filter_control__DOT__i2s_wsp));
-    }
-}
-
-void Vfilter_control::traceChgThis__7(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c = code;
-    if (0 && vcdp && c) {}  // Prevent unused
     // Variables
     WData/*255:0*/ __Vtemp6[8];
     WData/*255:0*/ __Vtemp7[8];
     // Body
     {
-        vcdp->chgBus(c+1849,(vlTOPp->filter_control__DOT__next_state),5);
-        vcdp->chgBus(c+1857,(vlTOPp->filter_control__DOT__i_idx),5);
-        vcdp->chgBit(c+1865,(vlTOPp->filter_control__DOT__i_tap_wr));
+        vcdp->chgBus(c+1841,(vlTOPp->filter_control__DOT__next_state),5);
+        vcdp->chgBus(c+1849,(vlTOPp->filter_control__DOT__i_idx),5);
+        vcdp->chgBit(c+1857,(vlTOPp->filter_control__DOT__i_tap_wr));
         __Vtemp6[0U] = 0xbd90565U;
         __Vtemp6[1U] = 0xff270b0bU;
         __Vtemp6[2U] = 0xfb52f3a7U;
@@ -369,7 +359,7 @@ void Vfilter_control::traceChgThis__7(Vfilter_control__Syms* __restrict vlSymsp,
         __Vtemp6[5U] = 0xf3a7fb52U;
         __Vtemp6[6U] = 0xb0bff27U;
         __Vtemp6[7U] = 0x5650bd9U;
-        vcdp->chgBus(c+1873,((0xffffU & (((0U == (0x1fU 
+        vcdp->chgBus(c+1865,((0xffffU & (((0U == (0x1fU 
                                                   & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
                                                      << 4U)))
                                            ? 0U : (
@@ -399,7 +389,7 @@ void Vfilter_control::traceChgThis__7(Vfilter_control__Syms* __restrict vlSymsp,
         __Vtemp7[5U] = 0xf3a7fb52U;
         __Vtemp7[6U] = 0xb0bff27U;
         __Vtemp7[7U] = 0x5650bd9U;
-        vcdp->chgBus(c+1881,((((IData)(vlTOPp->filter_control__DOT__i_tap_wr) 
+        vcdp->chgBus(c+1873,((((IData)(vlTOPp->filter_control__DOT__i_tap_wr) 
                                << 0x10U) | (0xffffU 
                                             & (((0U 
                                                  == 
@@ -431,6 +421,16 @@ void Vfilter_control::traceChgThis__7(Vfilter_control__Syms* __restrict vlSymsp,
     }
 }
 
+void Vfilter_control::traceChgThis__7(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c = code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+        vcdp->chgBit(c+1881,(vlTOPp->filter_control__DOT__i2s_wsp));
+    }
+}
+
 void Vfilter_control::traceChgThis__8(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c = code;
@@ -449,8 +449,9 @@ void Vfilter_control::traceChgThis__9(Vfilter_control__Syms* __restrict vlSymsp,
     {
         vcdp->chgBus(c+1897,(vlTOPp->filter_control__DOT__left_channel),16);
         vcdp->chgBus(c+1905,(vlTOPp->filter_control__DOT__right_channel),16);
-        vcdp->chgBit(c+1913,(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd));
-        vcdp->chgBus(c+1921,(vlTOPp->filter_control__DOT__i2s_m0__DOT__shift),16);
+        vcdp->chgBit(c+1913,(vlTOPp->filter_control__DOT__i_ce_flag_2));
+        vcdp->chgBit(c+1921,(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd));
+        vcdp->chgBus(c+1929,(vlTOPp->filter_control__DOT__i2s_m0__DOT__shift),16);
     }
 }
 
@@ -460,23 +461,23 @@ void Vfilter_control::traceChgThis__10(Vfilter_control__Syms* __restrict vlSymsp
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgBus(c+1929,(vlTOPp->filter_control__DOT__state),5);
-        vcdp->chgBus(c+1937,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1945,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1953,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1961,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1969,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1977,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1985,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+1993,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2001,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2009,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2017,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2025,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2033,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2041,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2049,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+2057,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1937,(vlTOPp->filter_control__DOT__state),5);
+        vcdp->chgBus(c+1945,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1953,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1961,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1969,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1977,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1985,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+1993,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2001,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2009,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2017,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2025,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2033,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2041,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2049,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2057,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product),32);
+        vcdp->chgBus(c+2065,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product),32);
     }
 }
 
@@ -486,7 +487,7 @@ void Vfilter_control::traceChgThis__11(Vfilter_control__Syms* __restrict vlSymsp
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgBit(c+2065,(vlTOPp->filter_control__DOT__i_ce_flag));
+        vcdp->chgBit(c+2073,(vlTOPp->filter_control__DOT__i_ce_flag_1));
     }
 }
 
@@ -496,14 +497,14 @@ void Vfilter_control::traceChgThis__12(Vfilter_control__Syms* __restrict vlSymsp
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgBit(c+2073,(vlTOPp->i_clk));
-        vcdp->chgBit(c+2081,(vlTOPp->i_reset));
-        vcdp->chgBit(c+2089,(vlTOPp->i_start));
-        vcdp->chgQuad(c+2097,(vlTOPp->o_result),39);
-        vcdp->chgBit(c+2113,(vlTOPp->i2s_sck));
-        vcdp->chgBit(c+2121,(vlTOPp->i2s_ws));
-        vcdp->chgBit(c+2129,(vlTOPp->i2s_sda));
-        vcdp->chgBit(c+2137,(vlTOPp->i_ce));
-        vcdp->chgBit(c+2145,((1U & (~ (IData)(vlTOPp->i_reset)))));
+        vcdp->chgBit(c+2081,(vlTOPp->i_clk));
+        vcdp->chgBit(c+2089,(vlTOPp->i_reset));
+        vcdp->chgBit(c+2097,(vlTOPp->i_start));
+        vcdp->chgQuad(c+2105,(vlTOPp->o_result),39);
+        vcdp->chgBit(c+2121,(vlTOPp->i2s_sck));
+        vcdp->chgBit(c+2129,(vlTOPp->i2s_ws));
+        vcdp->chgBit(c+2137,(vlTOPp->i2s_sda));
+        vcdp->chgBit(c+2145,(vlTOPp->i_ce));
+        vcdp->chgBit(c+2153,((1U & (~ (IData)(vlTOPp->i_reset)))));
     }
 }
