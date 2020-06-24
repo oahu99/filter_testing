@@ -33,6 +33,7 @@ VM_PREFIX = Vfilter_control
 VM_MODPREFIX = Vfilter_control
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
+	-g \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \

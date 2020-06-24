@@ -107,6 +107,41 @@ void Vfilter_control::_initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber8 = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8 = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8 = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8 = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
@@ -123,6 +158,41 @@ void Vfilter_control::_initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
     vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
     vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__delayed_sample = 0U;
@@ -139,23 +209,198 @@ void Vfilter_control::_initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp
     vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__delayed_sample = 0U;
     vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap = 0U;
+    VL_READMEM_N(true, 16, 52, 0, std::string("taps.dat")
+                 , vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                 , 0, ~VL_ULL(0));
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x32U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[1U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x31U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[2U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x30U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[3U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2fU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[4U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2eU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[5U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2dU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[6U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2cU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[7U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2bU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[8U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2aU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[9U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x29U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xaU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x28U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xbU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x27U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xcU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x26U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xdU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x25U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xeU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x24U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xfU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x23U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x10U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x22U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x11U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x21U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x12U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x20U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x13U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1fU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x14U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1eU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x15U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1dU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x16U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1cU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x17U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1bU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x18U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1aU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x19U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x19U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x18U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x17U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x16U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x15U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x14U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x13U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x20U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x12U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x21U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x11U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x22U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x10U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x23U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xfU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x24U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xeU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x25U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xdU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x26U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xcU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x27U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xbU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x28U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xaU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x29U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [9U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [8U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [7U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [6U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [5U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [4U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [3U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x30U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [2U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x31U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [1U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x32U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0U];
 }
 
 VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __restrict vlSymsp) {
@@ -184,13 +429,13 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__3(Vfilter_control__Syms* __re
     // Body
     vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd 
         = vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd;
-    if ((1U & (~ (IData)(vlTOPp->i_reset)))) {
-        vlTOPp->filter_control__DOT__i_ce_flag_2 = 0U;
-    }
     if (((~ (IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd)) 
          & (IData)(vlTOPp->filter_control__DOT__i2s_wsp))) {
         vlTOPp->filter_control__DOT__right_channel 
             = vlTOPp->filter_control__DOT__i2s_m0__DOT__shift;
+    }
+    if ((1U & (~ (IData)(vlTOPp->i_reset)))) {
+        vlTOPp->filter_control__DOT__i_ce_flag_2 = 0U;
     }
     if (((IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd) 
          & (IData)(vlTOPp->filter_control__DOT__i2s_wsp))) {
@@ -218,6 +463,286 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     vlTOPp->filter_control__DOT__state = ((IData)(vlTOPp->i_reset)
                                            ? (IData)(vlTOPp->filter_control__DOT__next_state)
                                            : 0U);
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__delayed_sample;
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8 = 0U;
+    }
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8 
@@ -345,6 +870,601 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
         }
     } else {
         vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8 = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x32U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x31U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x30U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x2fU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x2eU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x2dU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x2cU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x2bU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x2aU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x29U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x28U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x27U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x26U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x25U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x24U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x23U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x22U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x21U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x20U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x1fU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x1eU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x1dU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x1cU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x1bU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x1aU] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x19U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x18U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x17U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x16U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x15U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x14U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x13U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x12U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x11U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10 
+                = (VL_ULL(0x7fffffffff) & (vlTOPp->filter_control__DOT__filter_0__DOT__result
+                                           [0x10U] 
+                                           + (((QData)((IData)(
+                                                               (0x7fU 
+                                                                & VL_NEGATE_I((IData)(
+                                                                                (1U 
+                                                                                & (vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__product 
+                                                                                >> 0x1fU))))))) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__product)))));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10 = VL_ULL(0);
     }
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
@@ -620,6 +1740,321 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     }
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x32U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x31U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x30U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x2fU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x2eU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x2dU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x2cU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x2bU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x2aU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x29U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x28U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x27U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x26U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x25U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x24U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x23U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x22U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x21U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x20U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x1fU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x1eU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x1dU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x1cU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x1bU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x1aU];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x19U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x18U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x17U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x16U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x15U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x14U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x13U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x12U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x11U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__delayed_sample 
+                = vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                [0x10U];
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__delayed_sample = 0U;
+    }
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample 
                 = vlTOPp->filter_control__DOT__filter_0__DOT__sample
                 [0xfU];
@@ -762,12 +2197,539 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     } else {
         vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample = 0U;
     }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x33U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x32U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x32U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [1U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x31U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x31U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [2U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x30U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x30U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [3U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x2fU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [4U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x2eU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [5U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x2dU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [6U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x2cU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [7U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x2bU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [8U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x2aU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [9U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x29U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x29U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0xaU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x28U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x28U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0xbU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x27U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x27U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0xcU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x26U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x26U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0xdU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x25U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x25U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0xeU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x24U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x24U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0xfU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x23U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x23U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x10U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x22U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x22U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x11U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x21U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x21U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x12U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x20U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x20U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x13U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x1fU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x14U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x1eU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x15U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x1dU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x16U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x1cU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x17U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x1bU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x18U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x1aU]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x19U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x19U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x19U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x1aU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x18U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x18U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x1bU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x17U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x17U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x1cU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x16U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x16U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x1dU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x15U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x15U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x1eU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x14U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x14U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x1fU]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x13U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x13U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x20U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x12U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x12U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x21U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x11U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__product = 0U;
+    }
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x11U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10;
+    if (vlTOPp->i_reset) {
+        if (vlTOPp->i_ce) {
+            vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__product 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x22U]), 
+                              VL_EXTENDS_II(32,16, 
+                                            vlTOPp->filter_control__DOT__filter_0__DOT__sample
+                                            [0x10U]));
+        }
+    } else {
+        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__product = 0U;
+    }
     vlTOPp->filter_control__DOT__filter_0__DOT__result[0x10U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10;
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x23U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0xfU]));
@@ -780,7 +2742,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x24U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0xeU]));
@@ -793,7 +2757,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x25U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0xdU]));
@@ -806,7 +2772,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x26U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0xcU]));
@@ -819,7 +2787,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x27U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0xbU]));
@@ -832,7 +2802,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x28U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0xaU]));
@@ -845,7 +2817,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x29U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [9U]));
@@ -858,7 +2832,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x2aU]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [8U]));
@@ -871,7 +2847,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x2bU]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [7U]));
@@ -884,7 +2862,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x2cU]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [6U]));
@@ -897,7 +2877,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x2dU]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [5U]));
@@ -910,7 +2892,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x2eU]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [4U]));
@@ -923,7 +2907,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x2fU]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [3U]));
@@ -936,7 +2922,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x30U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [2U]));
@@ -949,7 +2937,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x31U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [1U]));
@@ -962,7 +2952,9 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
     if (vlTOPp->i_reset) {
         if (vlTOPp->i_ce) {
             vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product 
-                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, (IData)(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap)), 
+                = VL_MULS_III(32,32,32, VL_EXTENDS_II(32,16, 
+                                                      vlTOPp->filter_control__DOT__filter_0__DOT__tap
+                                                      [0x32U]), 
                               VL_EXTENDS_II(32,16, 
                                             vlTOPp->filter_control__DOT__filter_0__DOT__sample
                                             [0U]));
@@ -971,7 +2963,7 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
         vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product = 0U;
     }
     vlTOPp->o_result = vlTOPp->filter_control__DOT__filter_0__DOT__result
-        [0x10U];
+        [0x33U];
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[1U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8;
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[2U] 
@@ -1004,166 +2996,76 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__4(Vfilter_control__Syms* __re
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8;
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x10U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8;
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [1U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [2U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [3U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [4U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [5U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [6U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [7U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [8U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [9U];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0xaU];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0xbU];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0xcU];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0xdU];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0xeU];
-    }
-    if (vlTOPp->filter_control__DOT__i_tap_wr) {
-        vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap 
-            = vlTOPp->filter_control__DOT__filter_0__DOT__tap
-            [0xfU];
-    }
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xfU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xeU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xdU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xcU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xbU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xaU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[9U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[8U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[7U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[6U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[5U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[4U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[3U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[2U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[1U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xfU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [1U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xeU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [2U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xdU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [3U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xcU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [4U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xbU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [5U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xaU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [6U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[9U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [7U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[8U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [8U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[7U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [9U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[6U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xaU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[5U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xbU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[4U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xcU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[3U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xdU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[2U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xeU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[1U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xfU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0x10U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x11U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x12U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x13U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x14U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x15U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x16U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x17U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x18U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x19U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x20U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x21U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x22U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x23U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x24U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x25U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x26U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x27U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x28U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x29U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x30U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x31U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x32U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x33U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8;
 }
 
 VL_INLINE_OPT void Vfilter_control::_sequent__TOP__5(Vfilter_control__Syms* __restrict vlSymsp) {
@@ -1177,12 +3079,8 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__5(Vfilter_control__Syms* __re
 void Vfilter_control::_settle__TOP__6(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_settle__TOP__6\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Variables
-    WData/*255:0*/ __Vtemp1[8];
     // Body
     vlTOPp->filter_control__DOT__filter_0__DOT__result[0U] = VL_ULL(0);
-    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0U] 
-        = vlTOPp->filter_control__DOT__left_channel;
     vlTOPp->__Vtableidx1 = (((IData)(vlTOPp->i_start) 
                              << 5U) | (IData)(vlTOPp->filter_control__DOT__state));
     vlTOPp->filter_control__DOT__i_idx = vlTOPp->__Vtable1_filter_control__DOT__i_idx
@@ -1191,6 +3089,8 @@ void Vfilter_control::_settle__TOP__6(Vfilter_control__Syms* __restrict vlSymsp)
         [vlTOPp->__Vtableidx1];
     vlTOPp->filter_control__DOT__i_tap_wr = vlTOPp->__Vtable1_filter_control__DOT__i_tap_wr
         [vlTOPp->__Vtableidx1];
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0U] 
+        = vlTOPp->filter_control__DOT__left_channel;
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[1U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8;
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[2U] 
@@ -1223,6 +3123,76 @@ void Vfilter_control::_settle__TOP__6(Vfilter_control__Syms* __restrict vlSymsp)
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8;
     vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x10U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x11U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x12U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x13U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x14U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x15U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x16U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x17U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x18U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x19U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x1fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x20U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x21U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x22U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x23U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x24U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x25U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x26U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x27U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x28U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x29U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x2fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x30U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x31U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x32U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8;
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0x33U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8;
     vlTOPp->filter_control__DOT__filter_0__DOT__result[1U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber10;
     vlTOPp->filter_control__DOT__filter_0__DOT__result[2U] 
@@ -1255,129 +3225,238 @@ void Vfilter_control::_settle__TOP__6(Vfilter_control__Syms* __restrict vlSymsp)
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber10;
     vlTOPp->filter_control__DOT__filter_0__DOT__result[0x10U] 
         = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x11U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x12U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x13U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x14U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x15U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x16U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x17U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x18U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x19U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x1fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x20U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x21U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x22U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x23U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x24U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x25U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x26U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x27U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x28U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x29U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x2fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x30U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x31U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x32U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10;
+    vlTOPp->filter_control__DOT__filter_0__DOT__result[0x33U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10;
     vlTOPp->filter_control__DOT__i2s_wsp = ((IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsd) 
                                             ^ (IData)(vlTOPp->filter_control__DOT__i2s_m0__DOT__wsdd));
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x32U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[1U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x31U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[2U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x30U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[3U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2fU];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[4U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2eU];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[5U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2dU];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[6U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2cU];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[7U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2bU];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[8U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x2aU];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[9U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x29U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xaU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x28U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xbU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x27U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xcU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x26U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xdU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x25U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xeU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap;
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x24U];
     vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0xfU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap;
-    __Vtemp1[0U] = 0xbd90565U;
-    __Vtemp1[1U] = 0xff270b0bU;
-    __Vtemp1[2U] = 0xfb52f3a7U;
-    __Vtemp1[3U] = 0x3384182eU;
-    __Vtemp1[4U] = 0x182e3384U;
-    __Vtemp1[5U] = 0xf3a7fb52U;
-    __Vtemp1[6U] = 0xb0bff27U;
-    __Vtemp1[7U] = 0x5650bd9U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0U] 
-        = (0xffffU & (((0U == (0x1fU & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                        << 4U))) ? 0U
-                        : (__Vtemp1[((IData)(1U) + 
-                                     (7U & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                            >> 1U)))] 
-                           << ((IData)(0x20U) - (0x1fU 
-                                                 & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                    << 4U))))) 
-                      | (__Vtemp1[(7U & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                         >> 1U))] >> 
-                         (0x1fU & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                   << 4U)))));
-    vlTOPp->o_result = vlTOPp->filter_control__DOT__filter_0__DOT__result
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x23U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x10U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x22U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x11U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x21U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x12U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x20U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x13U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1fU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x14U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1eU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x15U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1dU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x16U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1cU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x17U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1bU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x18U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x1aU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x19U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x19U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x18U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x17U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x16U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x15U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x14U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x1fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x13U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x20U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x12U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x21U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0x11U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x22U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
         [0x10U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xfU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [1U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xeU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [2U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xdU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [3U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xcU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [4U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xbU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [5U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0xaU] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [6U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[9U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [7U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[8U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [8U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[7U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [9U];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[6U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xaU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[5U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xbU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[4U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xcU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[3U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xdU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[2U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0xeU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[1U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x23U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
         [0xfU];
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0U] 
-        = vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-        [0x10U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x24U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xeU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x25U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xdU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x26U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xcU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x27U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xbU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x28U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0xaU];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x29U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [9U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2aU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [8U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2bU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [7U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2cU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [6U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2dU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [5U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2eU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [4U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x2fU] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [3U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x30U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [2U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x31U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [1U];
+    vlTOPp->filter_control__DOT__filter_0__DOT__tapout[0x32U] 
+        = vlTOPp->filter_control__DOT__filter_0__DOT__tap
+        [0U];
+    vlTOPp->o_result = vlTOPp->filter_control__DOT__filter_0__DOT__result
+        [0x33U];
 }
 
-VL_INLINE_OPT void Vfilter_control::_sequent__TOP__7(Vfilter_control__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__7\n"); );
+VL_INLINE_OPT void Vfilter_control::_combo__TOP__7(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_combo__TOP__7\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0U] 
-        = vlTOPp->filter_control__DOT__left_channel;
-    if ((1U & (~ (IData)(vlTOPp->i_reset)))) {
-        vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1 = 0U;
-    }
-}
-
-VL_INLINE_OPT void Vfilter_control::_combo__TOP__8(Vfilter_control__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_combo__TOP__8\n"); );
-    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Variables
-    WData/*255:0*/ __Vtemp2[8];
     // Body
     vlTOPp->__Vtableidx1 = (((IData)(vlTOPp->i_start) 
                              << 5U) | (IData)(vlTOPp->filter_control__DOT__state));
@@ -1387,27 +3466,17 @@ VL_INLINE_OPT void Vfilter_control::_combo__TOP__8(Vfilter_control__Syms* __rest
         [vlTOPp->__Vtableidx1];
     vlTOPp->filter_control__DOT__i_tap_wr = vlTOPp->__Vtable1_filter_control__DOT__i_tap_wr
         [vlTOPp->__Vtableidx1];
-    __Vtemp2[0U] = 0xbd90565U;
-    __Vtemp2[1U] = 0xff270b0bU;
-    __Vtemp2[2U] = 0xfb52f3a7U;
-    __Vtemp2[3U] = 0x3384182eU;
-    __Vtemp2[4U] = 0x182e3384U;
-    __Vtemp2[5U] = 0xf3a7fb52U;
-    __Vtemp2[6U] = 0xb0bff27U;
-    __Vtemp2[7U] = 0x5650bd9U;
-    vlTOPp->filter_control__DOT__filter_0__DOT__tap[0U] 
-        = (0xffffU & (((0U == (0x1fU & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                        << 4U))) ? 0U
-                        : (__Vtemp2[((IData)(1U) + 
-                                     (7U & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                            >> 1U)))] 
-                           << ((IData)(0x20U) - (0x1fU 
-                                                 & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                    << 4U))))) 
-                      | (__Vtemp2[(7U & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                         >> 1U))] >> 
-                         (0x1fU & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                   << 4U)))));
+}
+
+VL_INLINE_OPT void Vfilter_control::_sequent__TOP__8(Vfilter_control__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__8\n"); );
+    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->filter_control__DOT__filter_0__DOT__sample[0U] 
+        = vlTOPp->filter_control__DOT__left_channel;
+    if ((1U & (~ (IData)(vlTOPp->i_reset)))) {
+        vlTOPp->__Vdly__filter_control__DOT__i_ce_flag_1 = 0U;
+    }
 }
 
 VL_INLINE_OPT void Vfilter_control::_sequent__TOP__9(Vfilter_control__Syms* __restrict vlSymsp) {
@@ -1462,12 +3531,12 @@ void Vfilter_control::_eval(Vfilter_control__Syms* __restrict vlSymsp) {
          | ((IData)(vlTOPp->i_clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__i_clk))))) {
         vlTOPp->_sequent__TOP__5(vlSymsp);
     }
+    vlTOPp->_combo__TOP__7(vlSymsp);
+    vlTOPp->__Vm_traceActivity = (0x10U | vlTOPp->__Vm_traceActivity);
     if (((IData)(vlTOPp->i2s_sck) & (~ (IData)(vlTOPp->__Vclklast__TOP__i2s_sck)))) {
-        vlTOPp->_sequent__TOP__7(vlSymsp);
-        vlTOPp->__Vm_traceActivity = (0x10U | vlTOPp->__Vm_traceActivity);
+        vlTOPp->_sequent__TOP__8(vlSymsp);
+        vlTOPp->__Vm_traceActivity = (0x20U | vlTOPp->__Vm_traceActivity);
     }
-    vlTOPp->_combo__TOP__8(vlSymsp);
-    vlTOPp->__Vm_traceActivity = (0x20U | vlTOPp->__Vm_traceActivity);
     if (((IData)(vlTOPp->i_clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__i_clk)))) {
         vlTOPp->_sequent__TOP__9(vlSymsp);
     }
@@ -1563,114 +3632,222 @@ void Vfilter_control::_ctor_var_reset() {
     filter_control__DOT__coeff_0__DOT__AVL_DATA = VL_RAND_RESET_I(16);
     filter_control__DOT__coeff_0__DOT__AVL_WRITE = VL_RAND_RESET_I(1);
     filter_control__DOT__coeff_0__DOT__AVL_READ = VL_RAND_RESET_I(1);
-    { int __Vi0=0; for (; __Vi0<17; ++__Vi0) {
+    { int __Vi0=0; for (; __Vi0<52; ++__Vi0) {
             filter_control__DOT__filter_0__DOT__tap[__Vi0] = VL_RAND_RESET_I(16);
     }}
-    { int __Vi0=0; for (; __Vi0<17; ++__Vi0) {
+    { int __Vi0=0; for (; __Vi0<52; ++__Vi0) {
             filter_control__DOT__filter_0__DOT__tapout[__Vi0] = VL_RAND_RESET_I(16);
     }}
-    { int __Vi0=0; for (; __Vi0<17; ++__Vi0) {
+    { int __Vi0=0; for (; __Vi0<52; ++__Vi0) {
             filter_control__DOT__filter_0__DOT__sample[__Vi0] = VL_RAND_RESET_I(16);
     }}
-    { int __Vi0=0; for (; __Vi0<17; ++__Vi0) {
+    { int __Vi0=0; for (; __Vi0<52; ++__Vi0) {
             filter_control__DOT__filter_0__DOT__result[__Vi0] = VL_RAND_RESET_Q(39);
     }}
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__3__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__3__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__4__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__4__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__5__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__5__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__6__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__6__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__7__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__7__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__8__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__8__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__9__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__9__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__10__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__10__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__11__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__11__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__12__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__12__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
     filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__unused_tap = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10 = VL_RAND_RESET_Q(39);
+    filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8 = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
     filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
-    filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__genblk2__DOT__tap = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__delayed_sample = VL_RAND_RESET_I(16);
+    filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__product = VL_RAND_RESET_I(32);
     filter_control__DOT__i2s_m0__DOT__wsd = VL_RAND_RESET_I(1);
     filter_control__DOT__i2s_m0__DOT__wsdd = VL_RAND_RESET_I(1);
     filter_control__DOT__i2s_m0__DOT__counter = VL_RAND_RESET_I(5);

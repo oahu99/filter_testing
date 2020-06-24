@@ -90,13 +90,15 @@ coefficients coeff_0 (	.i_idx,
 						.o_tap(i_tap)
 						); // memory with coefficients to load
 
-genericfir filter_0 (	.i_clk, 
+genericfir filter_0 (				
+						
+						.i_clk, 
 						.i_reset(~i_reset), 
 						.i_tap_wr, 
 						.i_tap, 
 						.i_ce, 
 						.i_sample(left_channel), 
-						.o_result
+						.o_result(output)
 						); // top level for FIR filter
 
 i2s_master i2s_m0 (		.sck(i2s_sck), 

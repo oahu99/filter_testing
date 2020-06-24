@@ -44,31 +44,14 @@ int main() {
 	tb->trace(tfp, 99);
 	tfp->open("out.vcd");
 
-
 	long unsigned int counter;
-
-	ifstream mic_left ("test.dat");
-
-	string line;
-
-	vector<int> left_vector;
-
-	// Read left data into a integer vector
-	if (mic_left.is_open())
-	{
-		while (getline(mic_left,line))
-		{
-			left_vector.emplace_back(stoi(line));
-		}
-		mic_left.close();
-	}
 	
 	int i = 0;
 	int j = 0;
 
 	i2s_slave->i2s_init(); // initialize data vectors for i2s sim
 
-	while (i < 200) {//left_vector.size()) { 			// loop over entire input vector for simulation
+	while (!i2s_slave->i2s_done()) { 			// loop over entire input vector for simulation
 
 		tick(tb, tfp, counter, system_clk, i2s_clk); // advance clocks
 
@@ -78,15 +61,10 @@ int main() {
 
 		if (i2s_clk->falling_edge()) { // send new data to filter
 				
-			// tb->i_sample = left_vector[i];
-			// tb->i_ce = 1;
-			
-
 			// Drive I2S simulation on the bit clock
 			i2s_slave->i2s_stream();
 			tb->i2s_sda = i2s_slave->sda;
 	        tb->i2s_ws = (i2s_slave->next_state == I2S_SLAVE::tx_r) ? 1 : 0;
-
 
 		}
 
