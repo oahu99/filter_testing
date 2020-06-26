@@ -46,7 +46,7 @@ int main() {
 	long unsigned int counter;
 	bool i_ce = 0;
 
-	ifstream mic_left ("test.dat");
+	ifstream mic_left ("MIC_1_RIGHT.dat");
 
 	string line;
 
@@ -77,8 +77,8 @@ int main() {
 
 			tb->i_ce = 1;
 
-			cout << tb->o_result << "\n";
-
+			//cout<< hex << tb->o_result << "\n";
+			printf("%hd\n", tb->o_result);
 			i++;
 		}
 
