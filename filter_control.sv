@@ -8,15 +8,21 @@ module filter_control
 );
 
 
-logic [4:0] state, next_state; // state machine
+logic [8:0] state, next_state; // state machine
 
-logic [4:0] i_idx; // index for tap coefficient in memory
+logic [8:0] i_idx; // index for tap coefficient in memory
 logic i_tap_wr; // active high
 logic [15:0] i_tap; // new tap input
 
 logic [38:0] out;
 
-assign o_result = out[24:9];
+logic [15:0] i_taps_arr_0 [102:0];
+
+initial begin
+	$readmemh("taps.dat",i_taps_arr_0);
+end
+
+assign o_result = out[15:0];
 
 always_ff @ (posedge i_clk) begin
 	if (~i_reset) 
@@ -37,8 +43,8 @@ always_comb begin
 						i_tap_wr = 0;
 					end
 
-		16 		:	begin
-						next_state = (~i_start) ? 16 : 0; // wait for start to be released
+		103 	:	begin
+						next_state = (~i_start) ? 103 : 0; // wait for start to be released
 						i_tap_wr = 0;
 					end
 
@@ -49,9 +55,13 @@ always_comb begin
 	endcase
 end
 
-coefficients coeff_0 (.i_idx, .i_clk, .o_tap(i_tap)); // memory with coefficients to load
+// coefficients coeff_0 (.i_idx, .i_clk, .o_tap(i_tap)); // memory with coefficients to load
 
-genericfir filter_0 (.i_clk, .i_reset(~i_reset), .i_tap_wr, .i_tap, .i_ce, .i_sample, .o_result(out)); // top level for FIR filter
+// genericfir filter_0 (.i_clk, .i_reset(~i_reset), .i_tap_wr, .i_tap, .i_ce, .i_sample, .o_result(out)); // top level for FIR filter
+
+// slowsymf fir_0 (.i_clk, .i_reset(~i_reset), .i_tap_wr, .i_ce, .i_sample, .o_result(out));
+
+slowfil fir_0 (.i_clk, .i_reset(~i_reset), .i_tap_wr, .i_ce, .i_sample, .o_result(out), .i_tap(i_taps_arr_0[state]));
 
 endmodule
 

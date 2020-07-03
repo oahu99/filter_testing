@@ -34,7 +34,9 @@ void tick (Vfilter_control* tb, VerilatedVcdC* tfp, unsigned long int &counter, 
 int main() {
 
 	TBCLOCK* system_clk = new TBCLOCK(20000); // 50 MHz
-	TBCLOCK* sample_clk = new TBCLOCK(1000000);// TBCLOCK(20833333); // 48.0 KHz sample clock
+	//TBCLOCK* sample_clk = new TBCLOCK(1000000);// TBCLOCK(20833333); // 48.0 KHz sample clock
+	TBCLOCK* sample_clk = new TBCLOCK(20833333); // 48.0 KHz sample clock
+
 
 	Vfilter_control* tb = new Vfilter_control;
 	Verilated::traceEverOn(true);
@@ -46,7 +48,9 @@ int main() {
 	long unsigned int counter;
 	bool i_ce = 0;
 
-	ifstream mic_left ("MIC_1_RIGHT.dat");
+	//ifstream mic_left ("MIC_1_RIGHT.dat");
+	ifstream mic_left ("impulse.dat");
+
 
 	string line;
 
@@ -63,6 +67,7 @@ int main() {
 	}
 	
 	int i = 0;
+	int ce_flag = 0;
 
 	while (i < left_vector.size()) { 			// loop over entire input vector for simulation
 
@@ -76,14 +81,24 @@ int main() {
 			tb->i_sample = left_vector[i];
 
 			tb->i_ce = 1;
+			ce_flag = 1;
 
-			//cout<< hex << tb->o_result << "\n";
-			printf("%hd\n", tb->o_result);
+			cout<< tb->o_result << "\n";
+			//printf("%hd\n", tb->o_result);
 			i++;
 		}
 
-		else
+		else if (system_clk->falling_edge() && tb->i_ce) {
+			if (ce_flag) 
+				ce_flag = 0;
+			else
+				tb->i_ce = 0;
+		}
+
+		else if (system_clk->rising_edge()) {
 			tb->i_ce = 0;
+			ce_flag = 0;
+		}
 
 		//cout << tb->o_result;
 

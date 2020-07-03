@@ -32,21 +32,15 @@ void Vfilter_control::traceChgThis(Vfilter_control__Syms* __restrict vlSymsp, Ve
                                   >> 1U))))) {
             vlTOPp->traceChgThis__3(vlSymsp, vcdp, code);
         }
-        if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity 
-                                | (vlTOPp->__Vm_traceActivity 
-                                   >> 1U)) | (vlTOPp->__Vm_traceActivity 
-                                              >> 2U))))) {
-            vlTOPp->traceChgThis__4(vlSymsp, vcdp, code);
-        }
         if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity 
                                | (vlTOPp->__Vm_traceActivity 
                                   >> 2U))))) {
-            vlTOPp->traceChgThis__5(vlSymsp, vcdp, code);
+            vlTOPp->traceChgThis__4(vlSymsp, vcdp, code);
         }
         if (VL_UNLIKELY((2U & vlTOPp->__Vm_traceActivity))) {
-            vlTOPp->traceChgThis__6(vlSymsp, vcdp, code);
+            vlTOPp->traceChgThis__5(vlSymsp, vcdp, code);
         }
-        vlTOPp->traceChgThis__7(vlSymsp, vcdp, code);
+        vlTOPp->traceChgThis__6(vlSymsp, vcdp, code);
     }
     // Final
     vlTOPp->__Vm_traceActivity = 0U;
@@ -58,210 +52,109 @@ void Vfilter_control::traceChgThis__2(Vfilter_control__Syms* __restrict vlSymsp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgBus(c+1,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                          [0U]),16);
-        vcdp->chgBus(c+9,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                          [1U]),16);
-        vcdp->chgBus(c+17,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [2U]),16);
-        vcdp->chgBus(c+25,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [3U]),16);
-        vcdp->chgBus(c+33,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [4U]),16);
-        vcdp->chgBus(c+41,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [5U]),16);
-        vcdp->chgBus(c+49,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [6U]),16);
-        vcdp->chgBus(c+57,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [7U]),16);
-        vcdp->chgBus(c+65,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [8U]),16);
-        vcdp->chgBus(c+73,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [9U]),16);
-        vcdp->chgBus(c+81,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [0xaU]),16);
-        vcdp->chgBus(c+89,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [0xbU]),16);
-        vcdp->chgBus(c+97,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                           [0xcU]),16);
-        vcdp->chgBus(c+105,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0xdU]),16);
-        vcdp->chgBus(c+113,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0xeU]),16);
-        vcdp->chgBus(c+121,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0xfU]),16);
-        vcdp->chgBus(c+129,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x10U]),16);
-        vcdp->chgBus(c+137,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x11U]),16);
-        vcdp->chgBus(c+145,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x12U]),16);
-        vcdp->chgBus(c+153,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x13U]),16);
-        vcdp->chgBus(c+161,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x14U]),16);
-        vcdp->chgBus(c+169,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x15U]),16);
-        vcdp->chgBus(c+177,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x16U]),16);
-        vcdp->chgBus(c+185,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x17U]),16);
-        vcdp->chgBus(c+193,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x18U]),16);
-        vcdp->chgBus(c+201,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x19U]),16);
-        vcdp->chgBus(c+209,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x1aU]),16);
-        vcdp->chgBus(c+217,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x1bU]),16);
-        vcdp->chgBus(c+225,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x1cU]),16);
-        vcdp->chgBus(c+233,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x1dU]),16);
-        vcdp->chgBus(c+241,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x1eU]),16);
-        vcdp->chgBus(c+249,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x1fU]),16);
-        vcdp->chgBus(c+257,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x20U]),16);
-        vcdp->chgBus(c+265,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x21U]),16);
-        vcdp->chgBus(c+273,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x22U]),16);
-        vcdp->chgBus(c+281,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x23U]),16);
-        vcdp->chgBus(c+289,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x24U]),16);
-        vcdp->chgBus(c+297,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x25U]),16);
-        vcdp->chgBus(c+305,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x26U]),16);
-        vcdp->chgBus(c+313,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x27U]),16);
-        vcdp->chgBus(c+321,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x28U]),16);
-        vcdp->chgBus(c+329,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x29U]),16);
-        vcdp->chgBus(c+337,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x2aU]),16);
-        vcdp->chgBus(c+345,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x2bU]),16);
-        vcdp->chgBus(c+353,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x2cU]),16);
-        vcdp->chgBus(c+361,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x2dU]),16);
-        vcdp->chgBus(c+369,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x2eU]),16);
-        vcdp->chgBus(c+377,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x2fU]),16);
-        vcdp->chgBus(c+385,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x30U]),16);
-        vcdp->chgBus(c+393,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x31U]),16);
-        vcdp->chgBus(c+401,(vlTOPp->filter_control__DOT__filter_0__DOT__tapout
-                            [0x32U]),16);
-        vcdp->chgBus(c+409,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x32U]),16);
-        vcdp->chgBus(c+417,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x31U]),16);
-        vcdp->chgBus(c+425,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x30U]),16);
-        vcdp->chgBus(c+433,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x2fU]),16);
-        vcdp->chgBus(c+441,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x2eU]),16);
-        vcdp->chgBus(c+449,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x2dU]),16);
-        vcdp->chgBus(c+457,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x2cU]),16);
-        vcdp->chgBus(c+465,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x2bU]),16);
-        vcdp->chgBus(c+473,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x2aU]),16);
-        vcdp->chgBus(c+481,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x29U]),16);
-        vcdp->chgBus(c+489,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x28U]),16);
-        vcdp->chgBus(c+497,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x27U]),16);
-        vcdp->chgBus(c+505,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x26U]),16);
-        vcdp->chgBus(c+513,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x25U]),16);
-        vcdp->chgBus(c+521,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x24U]),16);
-        vcdp->chgBus(c+529,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x23U]),16);
-        vcdp->chgBus(c+537,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x22U]),16);
-        vcdp->chgBus(c+545,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x21U]),16);
-        vcdp->chgBus(c+553,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x20U]),16);
-        vcdp->chgBus(c+561,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x1fU]),16);
-        vcdp->chgBus(c+569,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x1eU]),16);
-        vcdp->chgBus(c+577,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x1dU]),16);
-        vcdp->chgBus(c+585,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x1cU]),16);
-        vcdp->chgBus(c+593,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x1bU]),16);
-        vcdp->chgBus(c+601,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x1aU]),16);
-        vcdp->chgBus(c+609,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x19U]),16);
-        vcdp->chgBus(c+617,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x18U]),16);
-        vcdp->chgBus(c+625,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x17U]),16);
-        vcdp->chgBus(c+633,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x16U]),16);
-        vcdp->chgBus(c+641,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x15U]),16);
-        vcdp->chgBus(c+649,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x14U]),16);
-        vcdp->chgBus(c+657,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x13U]),16);
-        vcdp->chgBus(c+665,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x12U]),16);
-        vcdp->chgBus(c+673,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x11U]),16);
-        vcdp->chgBus(c+681,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0x10U]),16);
-        vcdp->chgBus(c+689,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0xfU]),16);
-        vcdp->chgBus(c+697,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0xeU]),16);
-        vcdp->chgBus(c+705,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0xdU]),16);
-        vcdp->chgBus(c+713,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0xcU]),16);
-        vcdp->chgBus(c+721,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0xbU]),16);
-        vcdp->chgBus(c+729,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0xaU]),16);
-        vcdp->chgBus(c+737,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [9U]),16);
-        vcdp->chgBus(c+745,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [8U]),16);
-        vcdp->chgBus(c+753,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [7U]),16);
-        vcdp->chgBus(c+761,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [6U]),16);
-        vcdp->chgBus(c+769,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [5U]),16);
-        vcdp->chgBus(c+777,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [4U]),16);
-        vcdp->chgBus(c+785,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [3U]),16);
-        vcdp->chgBus(c+793,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [2U]),16);
-        vcdp->chgBus(c+801,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [1U]),16);
-        vcdp->chgBus(c+809,(vlTOPp->filter_control__DOT__filter_0__DOT__tap
-                            [0U]),16);
+        vcdp->chgBus(c+1,(vlTOPp->filter_control__DOT__i_taps_arr_0[0]),16);
+        vcdp->chgBus(c+2,(vlTOPp->filter_control__DOT__i_taps_arr_0[1]),16);
+        vcdp->chgBus(c+3,(vlTOPp->filter_control__DOT__i_taps_arr_0[2]),16);
+        vcdp->chgBus(c+4,(vlTOPp->filter_control__DOT__i_taps_arr_0[3]),16);
+        vcdp->chgBus(c+5,(vlTOPp->filter_control__DOT__i_taps_arr_0[4]),16);
+        vcdp->chgBus(c+6,(vlTOPp->filter_control__DOT__i_taps_arr_0[5]),16);
+        vcdp->chgBus(c+7,(vlTOPp->filter_control__DOT__i_taps_arr_0[6]),16);
+        vcdp->chgBus(c+8,(vlTOPp->filter_control__DOT__i_taps_arr_0[7]),16);
+        vcdp->chgBus(c+9,(vlTOPp->filter_control__DOT__i_taps_arr_0[8]),16);
+        vcdp->chgBus(c+10,(vlTOPp->filter_control__DOT__i_taps_arr_0[9]),16);
+        vcdp->chgBus(c+11,(vlTOPp->filter_control__DOT__i_taps_arr_0[10]),16);
+        vcdp->chgBus(c+12,(vlTOPp->filter_control__DOT__i_taps_arr_0[11]),16);
+        vcdp->chgBus(c+13,(vlTOPp->filter_control__DOT__i_taps_arr_0[12]),16);
+        vcdp->chgBus(c+14,(vlTOPp->filter_control__DOT__i_taps_arr_0[13]),16);
+        vcdp->chgBus(c+15,(vlTOPp->filter_control__DOT__i_taps_arr_0[14]),16);
+        vcdp->chgBus(c+16,(vlTOPp->filter_control__DOT__i_taps_arr_0[15]),16);
+        vcdp->chgBus(c+17,(vlTOPp->filter_control__DOT__i_taps_arr_0[16]),16);
+        vcdp->chgBus(c+18,(vlTOPp->filter_control__DOT__i_taps_arr_0[17]),16);
+        vcdp->chgBus(c+19,(vlTOPp->filter_control__DOT__i_taps_arr_0[18]),16);
+        vcdp->chgBus(c+20,(vlTOPp->filter_control__DOT__i_taps_arr_0[19]),16);
+        vcdp->chgBus(c+21,(vlTOPp->filter_control__DOT__i_taps_arr_0[20]),16);
+        vcdp->chgBus(c+22,(vlTOPp->filter_control__DOT__i_taps_arr_0[21]),16);
+        vcdp->chgBus(c+23,(vlTOPp->filter_control__DOT__i_taps_arr_0[22]),16);
+        vcdp->chgBus(c+24,(vlTOPp->filter_control__DOT__i_taps_arr_0[23]),16);
+        vcdp->chgBus(c+25,(vlTOPp->filter_control__DOT__i_taps_arr_0[24]),16);
+        vcdp->chgBus(c+26,(vlTOPp->filter_control__DOT__i_taps_arr_0[25]),16);
+        vcdp->chgBus(c+27,(vlTOPp->filter_control__DOT__i_taps_arr_0[26]),16);
+        vcdp->chgBus(c+28,(vlTOPp->filter_control__DOT__i_taps_arr_0[27]),16);
+        vcdp->chgBus(c+29,(vlTOPp->filter_control__DOT__i_taps_arr_0[28]),16);
+        vcdp->chgBus(c+30,(vlTOPp->filter_control__DOT__i_taps_arr_0[29]),16);
+        vcdp->chgBus(c+31,(vlTOPp->filter_control__DOT__i_taps_arr_0[30]),16);
+        vcdp->chgBus(c+32,(vlTOPp->filter_control__DOT__i_taps_arr_0[31]),16);
+        vcdp->chgBus(c+33,(vlTOPp->filter_control__DOT__i_taps_arr_0[32]),16);
+        vcdp->chgBus(c+34,(vlTOPp->filter_control__DOT__i_taps_arr_0[33]),16);
+        vcdp->chgBus(c+35,(vlTOPp->filter_control__DOT__i_taps_arr_0[34]),16);
+        vcdp->chgBus(c+36,(vlTOPp->filter_control__DOT__i_taps_arr_0[35]),16);
+        vcdp->chgBus(c+37,(vlTOPp->filter_control__DOT__i_taps_arr_0[36]),16);
+        vcdp->chgBus(c+38,(vlTOPp->filter_control__DOT__i_taps_arr_0[37]),16);
+        vcdp->chgBus(c+39,(vlTOPp->filter_control__DOT__i_taps_arr_0[38]),16);
+        vcdp->chgBus(c+40,(vlTOPp->filter_control__DOT__i_taps_arr_0[39]),16);
+        vcdp->chgBus(c+41,(vlTOPp->filter_control__DOT__i_taps_arr_0[40]),16);
+        vcdp->chgBus(c+42,(vlTOPp->filter_control__DOT__i_taps_arr_0[41]),16);
+        vcdp->chgBus(c+43,(vlTOPp->filter_control__DOT__i_taps_arr_0[42]),16);
+        vcdp->chgBus(c+44,(vlTOPp->filter_control__DOT__i_taps_arr_0[43]),16);
+        vcdp->chgBus(c+45,(vlTOPp->filter_control__DOT__i_taps_arr_0[44]),16);
+        vcdp->chgBus(c+46,(vlTOPp->filter_control__DOT__i_taps_arr_0[45]),16);
+        vcdp->chgBus(c+47,(vlTOPp->filter_control__DOT__i_taps_arr_0[46]),16);
+        vcdp->chgBus(c+48,(vlTOPp->filter_control__DOT__i_taps_arr_0[47]),16);
+        vcdp->chgBus(c+49,(vlTOPp->filter_control__DOT__i_taps_arr_0[48]),16);
+        vcdp->chgBus(c+50,(vlTOPp->filter_control__DOT__i_taps_arr_0[49]),16);
+        vcdp->chgBus(c+51,(vlTOPp->filter_control__DOT__i_taps_arr_0[50]),16);
+        vcdp->chgBus(c+52,(vlTOPp->filter_control__DOT__i_taps_arr_0[51]),16);
+        vcdp->chgBus(c+53,(vlTOPp->filter_control__DOT__i_taps_arr_0[52]),16);
+        vcdp->chgBus(c+54,(vlTOPp->filter_control__DOT__i_taps_arr_0[53]),16);
+        vcdp->chgBus(c+55,(vlTOPp->filter_control__DOT__i_taps_arr_0[54]),16);
+        vcdp->chgBus(c+56,(vlTOPp->filter_control__DOT__i_taps_arr_0[55]),16);
+        vcdp->chgBus(c+57,(vlTOPp->filter_control__DOT__i_taps_arr_0[56]),16);
+        vcdp->chgBus(c+58,(vlTOPp->filter_control__DOT__i_taps_arr_0[57]),16);
+        vcdp->chgBus(c+59,(vlTOPp->filter_control__DOT__i_taps_arr_0[58]),16);
+        vcdp->chgBus(c+60,(vlTOPp->filter_control__DOT__i_taps_arr_0[59]),16);
+        vcdp->chgBus(c+61,(vlTOPp->filter_control__DOT__i_taps_arr_0[60]),16);
+        vcdp->chgBus(c+62,(vlTOPp->filter_control__DOT__i_taps_arr_0[61]),16);
+        vcdp->chgBus(c+63,(vlTOPp->filter_control__DOT__i_taps_arr_0[62]),16);
+        vcdp->chgBus(c+64,(vlTOPp->filter_control__DOT__i_taps_arr_0[63]),16);
+        vcdp->chgBus(c+65,(vlTOPp->filter_control__DOT__i_taps_arr_0[64]),16);
+        vcdp->chgBus(c+66,(vlTOPp->filter_control__DOT__i_taps_arr_0[65]),16);
+        vcdp->chgBus(c+67,(vlTOPp->filter_control__DOT__i_taps_arr_0[66]),16);
+        vcdp->chgBus(c+68,(vlTOPp->filter_control__DOT__i_taps_arr_0[67]),16);
+        vcdp->chgBus(c+69,(vlTOPp->filter_control__DOT__i_taps_arr_0[68]),16);
+        vcdp->chgBus(c+70,(vlTOPp->filter_control__DOT__i_taps_arr_0[69]),16);
+        vcdp->chgBus(c+71,(vlTOPp->filter_control__DOT__i_taps_arr_0[70]),16);
+        vcdp->chgBus(c+72,(vlTOPp->filter_control__DOT__i_taps_arr_0[71]),16);
+        vcdp->chgBus(c+73,(vlTOPp->filter_control__DOT__i_taps_arr_0[72]),16);
+        vcdp->chgBus(c+74,(vlTOPp->filter_control__DOT__i_taps_arr_0[73]),16);
+        vcdp->chgBus(c+75,(vlTOPp->filter_control__DOT__i_taps_arr_0[74]),16);
+        vcdp->chgBus(c+76,(vlTOPp->filter_control__DOT__i_taps_arr_0[75]),16);
+        vcdp->chgBus(c+77,(vlTOPp->filter_control__DOT__i_taps_arr_0[76]),16);
+        vcdp->chgBus(c+78,(vlTOPp->filter_control__DOT__i_taps_arr_0[77]),16);
+        vcdp->chgBus(c+79,(vlTOPp->filter_control__DOT__i_taps_arr_0[78]),16);
+        vcdp->chgBus(c+80,(vlTOPp->filter_control__DOT__i_taps_arr_0[79]),16);
+        vcdp->chgBus(c+81,(vlTOPp->filter_control__DOT__i_taps_arr_0[80]),16);
+        vcdp->chgBus(c+82,(vlTOPp->filter_control__DOT__i_taps_arr_0[81]),16);
+        vcdp->chgBus(c+83,(vlTOPp->filter_control__DOT__i_taps_arr_0[82]),16);
+        vcdp->chgBus(c+84,(vlTOPp->filter_control__DOT__i_taps_arr_0[83]),16);
+        vcdp->chgBus(c+85,(vlTOPp->filter_control__DOT__i_taps_arr_0[84]),16);
+        vcdp->chgBus(c+86,(vlTOPp->filter_control__DOT__i_taps_arr_0[85]),16);
+        vcdp->chgBus(c+87,(vlTOPp->filter_control__DOT__i_taps_arr_0[86]),16);
+        vcdp->chgBus(c+88,(vlTOPp->filter_control__DOT__i_taps_arr_0[87]),16);
+        vcdp->chgBus(c+89,(vlTOPp->filter_control__DOT__i_taps_arr_0[88]),16);
+        vcdp->chgBus(c+90,(vlTOPp->filter_control__DOT__i_taps_arr_0[89]),16);
+        vcdp->chgBus(c+91,(vlTOPp->filter_control__DOT__i_taps_arr_0[90]),16);
+        vcdp->chgBus(c+92,(vlTOPp->filter_control__DOT__i_taps_arr_0[91]),16);
+        vcdp->chgBus(c+93,(vlTOPp->filter_control__DOT__i_taps_arr_0[92]),16);
+        vcdp->chgBus(c+94,(vlTOPp->filter_control__DOT__i_taps_arr_0[93]),16);
+        vcdp->chgBus(c+95,(vlTOPp->filter_control__DOT__i_taps_arr_0[94]),16);
+        vcdp->chgBus(c+96,(vlTOPp->filter_control__DOT__i_taps_arr_0[95]),16);
+        vcdp->chgBus(c+97,(vlTOPp->filter_control__DOT__i_taps_arr_0[96]),16);
+        vcdp->chgBus(c+98,(vlTOPp->filter_control__DOT__i_taps_arr_0[97]),16);
+        vcdp->chgBus(c+99,(vlTOPp->filter_control__DOT__i_taps_arr_0[98]),16);
+        vcdp->chgBus(c+100,(vlTOPp->filter_control__DOT__i_taps_arr_0[99]),16);
+        vcdp->chgBus(c+101,(vlTOPp->filter_control__DOT__i_taps_arr_0[100]),16);
+        vcdp->chgBus(c+102,(vlTOPp->filter_control__DOT__i_taps_arr_0[101]),16);
+        vcdp->chgBus(c+103,(vlTOPp->filter_control__DOT__i_taps_arr_0[102]),16);
     }
 }
 
@@ -271,263 +164,27 @@ void Vfilter_control::traceChgThis__3(Vfilter_control__Syms* __restrict vlSymsp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgQuad(c+817,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                             [0x33U]),39);
-        vcdp->chgBus(c+833,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+841,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                             [0U]),39);
-        vcdp->chgQuad(c+857,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__0__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+873,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+881,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+889,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                             [1U]),39);
-        vcdp->chgQuad(c+905,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__1__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+921,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+929,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+937,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                             [2U]),39);
-        vcdp->chgQuad(c+953,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__2__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+969,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+977,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__3__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+985,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                             [3U]),39);
-        vcdp->chgQuad(c+1001,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__3__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1017,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1025,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__4__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1033,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [4U]),39);
-        vcdp->chgQuad(c+1049,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__4__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1065,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1073,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__5__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1081,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [5U]),39);
-        vcdp->chgQuad(c+1097,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__5__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1113,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1121,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__6__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1129,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [6U]),39);
-        vcdp->chgQuad(c+1145,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__6__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1161,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1169,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__7__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1177,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [7U]),39);
-        vcdp->chgQuad(c+1193,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__7__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1209,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1217,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__8__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1225,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [8U]),39);
-        vcdp->chgQuad(c+1241,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__8__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1257,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1265,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__9__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1273,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [9U]),39);
-        vcdp->chgQuad(c+1289,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__9__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1305,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1313,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__10__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1321,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0xaU]),39);
-        vcdp->chgQuad(c+1337,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__10__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1353,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1361,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__11__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1369,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0xbU]),39);
-        vcdp->chgQuad(c+1385,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__11__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1401,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1409,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__12__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1417,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0xcU]),39);
-        vcdp->chgQuad(c+1433,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__12__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1449,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1457,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1465,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0xdU]),39);
-        vcdp->chgQuad(c+1481,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__13__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1497,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1505,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1513,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0xeU]),39);
-        vcdp->chgQuad(c+1529,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__14__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1545,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1553,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1561,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0xfU]),39);
-        vcdp->chgQuad(c+1577,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__15__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1593,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1601,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1609,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x10U]),39);
-        vcdp->chgQuad(c+1625,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__16__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1641,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1649,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1657,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x11U]),39);
-        vcdp->chgQuad(c+1673,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__17__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1689,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1697,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1705,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x12U]),39);
-        vcdp->chgQuad(c+1721,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__18__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1737,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1745,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1753,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x13U]),39);
-        vcdp->chgQuad(c+1769,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__19__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1785,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1793,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1801,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x14U]),39);
-        vcdp->chgQuad(c+1817,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__20__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1833,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1841,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1849,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x15U]),39);
-        vcdp->chgQuad(c+1865,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__21__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1881,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1889,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1897,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x16U]),39);
-        vcdp->chgQuad(c+1913,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__22__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1929,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1937,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1945,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x17U]),39);
-        vcdp->chgQuad(c+1961,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__23__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+1977,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+1985,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+1993,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x18U]),39);
-        vcdp->chgQuad(c+2009,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__24__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2025,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2033,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2041,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x19U]),39);
-        vcdp->chgQuad(c+2057,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__25__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2073,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2081,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2089,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x1aU]),39);
-        vcdp->chgQuad(c+2105,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__26__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2121,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2129,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2137,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x1bU]),39);
-        vcdp->chgQuad(c+2153,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__27__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2169,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2177,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2185,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x1cU]),39);
-        vcdp->chgQuad(c+2201,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__28__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2217,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2225,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2233,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x1dU]),39);
-        vcdp->chgQuad(c+2249,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__29__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2265,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2273,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2281,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x1eU]),39);
-        vcdp->chgQuad(c+2297,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__30__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2313,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2321,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2329,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x1fU]),39);
-        vcdp->chgQuad(c+2345,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__31__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2361,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2369,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2377,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x20U]),39);
-        vcdp->chgQuad(c+2393,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__32__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2409,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2417,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2425,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x21U]),39);
-        vcdp->chgQuad(c+2441,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__33__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2457,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2465,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2473,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x22U]),39);
-        vcdp->chgQuad(c+2489,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__34__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2505,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2513,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2521,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x23U]),39);
-        vcdp->chgQuad(c+2537,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__35__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2553,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2561,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2569,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x24U]),39);
-        vcdp->chgQuad(c+2585,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__36__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2601,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2609,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2617,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x25U]),39);
-        vcdp->chgQuad(c+2633,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__37__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2649,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2657,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2665,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x26U]),39);
-        vcdp->chgQuad(c+2681,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__38__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2697,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2705,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2713,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x27U]),39);
-        vcdp->chgQuad(c+2729,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__39__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2745,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2753,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2761,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x28U]),39);
-        vcdp->chgQuad(c+2777,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__40__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2793,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2801,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2809,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x29U]),39);
-        vcdp->chgQuad(c+2825,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__41__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2841,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2849,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2857,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x2aU]),39);
-        vcdp->chgQuad(c+2873,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__42__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2889,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2897,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2905,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x2bU]),39);
-        vcdp->chgQuad(c+2921,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__43__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2937,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2945,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+2953,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x2cU]),39);
-        vcdp->chgQuad(c+2969,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__44__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+2985,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+2993,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+3001,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x2dU]),39);
-        vcdp->chgQuad(c+3017,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__45__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+3033,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+3041,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+3049,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x2eU]),39);
-        vcdp->chgQuad(c+3065,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__46__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+3081,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+3089,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+3097,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x2fU]),39);
-        vcdp->chgQuad(c+3113,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__47__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+3129,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+3137,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+3145,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x30U]),39);
-        vcdp->chgQuad(c+3161,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__48__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+3177,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+3185,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+3193,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x31U]),39);
-        vcdp->chgQuad(c+3209,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__49__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+3225,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__delayed_sample),16);
-        vcdp->chgBus(c+3233,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber8),16);
-        vcdp->chgQuad(c+3241,(vlTOPp->filter_control__DOT__filter_0__DOT__result
-                              [0x32U]),39);
-        vcdp->chgQuad(c+3257,(vlTOPp->filter_control__DOT__filter_0__DOT____Vcellout__FILTER__BRA__50__KET____DOT__tapk____pinNumber10),39);
-        vcdp->chgBus(c+3273,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__delayed_sample),16);
+        vcdp->chgBit(c+825,(vlTOPp->filter_control__DOT__i_tap_wr));
+        vcdp->chgQuad(c+833,(vlTOPp->filter_control__DOT__out),39);
+        vcdp->chgBus(c+849,(((0x66U >= (0x7fU & (IData)(vlTOPp->filter_control__DOT__state)))
+                              ? vlTOPp->filter_control__DOT__i_taps_arr_0
+                             [(0x7fU & (IData)(vlTOPp->filter_control__DOT__state))]
+                              : 0U)),16);
+        vcdp->chgBit(c+857,(vlTOPp->filter_control__DOT__fir_0__DOT__o_ce));
+        vcdp->chgBus(c+865,(vlTOPp->filter_control__DOT__fir_0__DOT__tap),16);
+        vcdp->chgBus(c+873,(vlTOPp->filter_control__DOT__fir_0__DOT__dwidx),7);
+        vcdp->chgBus(c+881,(vlTOPp->filter_control__DOT__fir_0__DOT__didx),7);
+        vcdp->chgBus(c+889,(vlTOPp->filter_control__DOT__fir_0__DOT__tidx),7);
+        vcdp->chgBus(c+897,(vlTOPp->filter_control__DOT__fir_0__DOT__data),16);
+        vcdp->chgBit(c+905,(vlTOPp->filter_control__DOT__fir_0__DOT__d_ce));
+        vcdp->chgBit(c+913,(vlTOPp->filter_control__DOT__fir_0__DOT__p_ce));
+        vcdp->chgBit(c+921,(vlTOPp->filter_control__DOT__fir_0__DOT__m_ce));
+        vcdp->chgBus(c+929,(vlTOPp->filter_control__DOT__fir_0__DOT__product),32);
+        vcdp->chgQuad(c+937,(vlTOPp->filter_control__DOT__fir_0__DOT__r_acc),39);
+        vcdp->chgBit(c+953,((1U >= ((IData)(0x67U) 
+                                    - (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__tidx)))));
+        vcdp->chgBus(c+961,(vlTOPp->filter_control__DOT__fir_0__DOT__pre_acc_ce),3);
+        vcdp->chgBus(c+969,(vlTOPp->filter_control__DOT__fir_0__DOT__genblk2__DOT__tapwidx),7);
     }
 }
 
@@ -537,108 +194,7 @@ void Vfilter_control::traceChgThis__4(Vfilter_control__Syms* __restrict vlSymsp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgBus(c+3281,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0U]),16);
-        vcdp->chgBus(c+3289,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [1U]),16);
-        vcdp->chgBus(c+3297,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [2U]),16);
-        vcdp->chgBus(c+3305,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [3U]),16);
-        vcdp->chgBus(c+3313,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [4U]),16);
-        vcdp->chgBus(c+3321,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [5U]),16);
-        vcdp->chgBus(c+3329,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [6U]),16);
-        vcdp->chgBus(c+3337,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [7U]),16);
-        vcdp->chgBus(c+3345,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [8U]),16);
-        vcdp->chgBus(c+3353,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [9U]),16);
-        vcdp->chgBus(c+3361,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0xaU]),16);
-        vcdp->chgBus(c+3369,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0xbU]),16);
-        vcdp->chgBus(c+3377,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0xcU]),16);
-        vcdp->chgBus(c+3385,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0xdU]),16);
-        vcdp->chgBus(c+3393,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0xeU]),16);
-        vcdp->chgBus(c+3401,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0xfU]),16);
-        vcdp->chgBus(c+3409,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x10U]),16);
-        vcdp->chgBus(c+3417,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x11U]),16);
-        vcdp->chgBus(c+3425,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x12U]),16);
-        vcdp->chgBus(c+3433,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x13U]),16);
-        vcdp->chgBus(c+3441,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x14U]),16);
-        vcdp->chgBus(c+3449,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x15U]),16);
-        vcdp->chgBus(c+3457,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x16U]),16);
-        vcdp->chgBus(c+3465,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x17U]),16);
-        vcdp->chgBus(c+3473,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x18U]),16);
-        vcdp->chgBus(c+3481,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x19U]),16);
-        vcdp->chgBus(c+3489,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x1aU]),16);
-        vcdp->chgBus(c+3497,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x1bU]),16);
-        vcdp->chgBus(c+3505,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x1cU]),16);
-        vcdp->chgBus(c+3513,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x1dU]),16);
-        vcdp->chgBus(c+3521,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x1eU]),16);
-        vcdp->chgBus(c+3529,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x1fU]),16);
-        vcdp->chgBus(c+3537,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x20U]),16);
-        vcdp->chgBus(c+3545,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x21U]),16);
-        vcdp->chgBus(c+3553,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x22U]),16);
-        vcdp->chgBus(c+3561,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x23U]),16);
-        vcdp->chgBus(c+3569,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x24U]),16);
-        vcdp->chgBus(c+3577,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x25U]),16);
-        vcdp->chgBus(c+3585,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x26U]),16);
-        vcdp->chgBus(c+3593,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x27U]),16);
-        vcdp->chgBus(c+3601,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x28U]),16);
-        vcdp->chgBus(c+3609,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x29U]),16);
-        vcdp->chgBus(c+3617,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x2aU]),16);
-        vcdp->chgBus(c+3625,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x2bU]),16);
-        vcdp->chgBus(c+3633,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x2cU]),16);
-        vcdp->chgBus(c+3641,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x2dU]),16);
-        vcdp->chgBus(c+3649,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x2eU]),16);
-        vcdp->chgBus(c+3657,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x2fU]),16);
-        vcdp->chgBus(c+3665,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x30U]),16);
-        vcdp->chgBus(c+3673,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x31U]),16);
-        vcdp->chgBus(c+3681,(vlTOPp->filter_control__DOT__filter_0__DOT__sample
-                             [0x32U]),16);
+        vcdp->chgBus(c+977,(vlTOPp->filter_control__DOT__next_state),9);
     }
 }
 
@@ -646,81 +202,269 @@ void Vfilter_control::traceChgThis__5(Vfilter_control__Syms* __restrict vlSymsp,
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c = code;
     if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    WData/*255:0*/ __Vtemp4[8];
-    WData/*255:0*/ __Vtemp5[8];
     // Body
     {
-        vcdp->chgBus(c+3689,(vlTOPp->filter_control__DOT__next_state),5);
-        vcdp->chgBus(c+3697,(vlTOPp->filter_control__DOT__i_idx),5);
-        vcdp->chgBit(c+3705,(vlTOPp->filter_control__DOT__i_tap_wr));
-        __Vtemp4[0U] = 0xbd90565U;
-        __Vtemp4[1U] = 0xff270b0bU;
-        __Vtemp4[2U] = 0xfb52f3a7U;
-        __Vtemp4[3U] = 0x3384182eU;
-        __Vtemp4[4U] = 0x182e3384U;
-        __Vtemp4[5U] = 0xf3a7fb52U;
-        __Vtemp4[6U] = 0xb0bff27U;
-        __Vtemp4[7U] = 0x5650bd9U;
-        vcdp->chgBus(c+3713,((0xffffU & (((0U == (0x1fU 
-                                                  & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                     << 4U)))
-                                           ? 0U : (
-                                                   __Vtemp4[
-                                                   ((IData)(1U) 
-                                                    + 
-                                                    (7U 
-                                                     & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                        >> 1U)))] 
-                                                   << 
-                                                   ((IData)(0x20U) 
-                                                    - 
-                                                    (0x1fU 
-                                                     & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                        << 4U))))) 
-                                         | (__Vtemp4[
-                                            (7U & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                   >> 1U))] 
-                                            >> (0x1fU 
-                                                & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                   << 4U)))))),16);
-        __Vtemp5[0U] = 0xbd90565U;
-        __Vtemp5[1U] = 0xff270b0bU;
-        __Vtemp5[2U] = 0xfb52f3a7U;
-        __Vtemp5[3U] = 0x3384182eU;
-        __Vtemp5[4U] = 0x182e3384U;
-        __Vtemp5[5U] = 0xf3a7fb52U;
-        __Vtemp5[6U] = 0xb0bff27U;
-        __Vtemp5[7U] = 0x5650bd9U;
-        vcdp->chgBus(c+3721,((((IData)(vlTOPp->filter_control__DOT__i_tap_wr) 
-                               << 0x10U) | (0xffffU 
-                                            & (((0U 
-                                                 == 
-                                                 (0x1fU 
-                                                  & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                     << 4U)))
-                                                 ? 0U
-                                                 : 
-                                                (__Vtemp5[
-                                                 ((IData)(1U) 
-                                                  + 
-                                                  (7U 
-                                                   & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                      >> 1U)))] 
-                                                 << 
-                                                 ((IData)(0x20U) 
-                                                  - 
-                                                  (0x1fU 
-                                                   & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                      << 4U))))) 
-                                               | (__Vtemp5[
-                                                  (7U 
-                                                   & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                      >> 1U))] 
-                                                  >> 
-                                                  (0x1fU 
-                                                   & ((IData)(vlTOPp->filter_control__DOT__i_idx) 
-                                                      << 4U))))))),17);
+        vcdp->chgBus(c+985,(vlTOPp->filter_control__DOT__state),9);
+        vcdp->chgBus(c+993,(((0U != (IData)(vlTOPp->filter_control__DOT__state))
+                              ? (0x1ffU & ((IData)(vlTOPp->filter_control__DOT__state) 
+                                           - (IData)(1U)))
+                              : 0U)),9);
+        vcdp->chgBus(c+1001,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[0]),16);
+        vcdp->chgBus(c+1002,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[1]),16);
+        vcdp->chgBus(c+1003,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[2]),16);
+        vcdp->chgBus(c+1004,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[3]),16);
+        vcdp->chgBus(c+1005,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[4]),16);
+        vcdp->chgBus(c+1006,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[5]),16);
+        vcdp->chgBus(c+1007,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[6]),16);
+        vcdp->chgBus(c+1008,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[7]),16);
+        vcdp->chgBus(c+1009,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[8]),16);
+        vcdp->chgBus(c+1010,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[9]),16);
+        vcdp->chgBus(c+1011,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[10]),16);
+        vcdp->chgBus(c+1012,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[11]),16);
+        vcdp->chgBus(c+1013,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[12]),16);
+        vcdp->chgBus(c+1014,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[13]),16);
+        vcdp->chgBus(c+1015,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[14]),16);
+        vcdp->chgBus(c+1016,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[15]),16);
+        vcdp->chgBus(c+1017,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[16]),16);
+        vcdp->chgBus(c+1018,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[17]),16);
+        vcdp->chgBus(c+1019,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[18]),16);
+        vcdp->chgBus(c+1020,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[19]),16);
+        vcdp->chgBus(c+1021,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[20]),16);
+        vcdp->chgBus(c+1022,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[21]),16);
+        vcdp->chgBus(c+1023,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[22]),16);
+        vcdp->chgBus(c+1024,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[23]),16);
+        vcdp->chgBus(c+1025,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[24]),16);
+        vcdp->chgBus(c+1026,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[25]),16);
+        vcdp->chgBus(c+1027,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[26]),16);
+        vcdp->chgBus(c+1028,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[27]),16);
+        vcdp->chgBus(c+1029,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[28]),16);
+        vcdp->chgBus(c+1030,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[29]),16);
+        vcdp->chgBus(c+1031,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[30]),16);
+        vcdp->chgBus(c+1032,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[31]),16);
+        vcdp->chgBus(c+1033,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[32]),16);
+        vcdp->chgBus(c+1034,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[33]),16);
+        vcdp->chgBus(c+1035,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[34]),16);
+        vcdp->chgBus(c+1036,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[35]),16);
+        vcdp->chgBus(c+1037,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[36]),16);
+        vcdp->chgBus(c+1038,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[37]),16);
+        vcdp->chgBus(c+1039,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[38]),16);
+        vcdp->chgBus(c+1040,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[39]),16);
+        vcdp->chgBus(c+1041,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[40]),16);
+        vcdp->chgBus(c+1042,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[41]),16);
+        vcdp->chgBus(c+1043,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[42]),16);
+        vcdp->chgBus(c+1044,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[43]),16);
+        vcdp->chgBus(c+1045,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[44]),16);
+        vcdp->chgBus(c+1046,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[45]),16);
+        vcdp->chgBus(c+1047,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[46]),16);
+        vcdp->chgBus(c+1048,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[47]),16);
+        vcdp->chgBus(c+1049,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[48]),16);
+        vcdp->chgBus(c+1050,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[49]),16);
+        vcdp->chgBus(c+1051,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[50]),16);
+        vcdp->chgBus(c+1052,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[51]),16);
+        vcdp->chgBus(c+1053,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[52]),16);
+        vcdp->chgBus(c+1054,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[53]),16);
+        vcdp->chgBus(c+1055,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[54]),16);
+        vcdp->chgBus(c+1056,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[55]),16);
+        vcdp->chgBus(c+1057,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[56]),16);
+        vcdp->chgBus(c+1058,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[57]),16);
+        vcdp->chgBus(c+1059,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[58]),16);
+        vcdp->chgBus(c+1060,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[59]),16);
+        vcdp->chgBus(c+1061,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[60]),16);
+        vcdp->chgBus(c+1062,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[61]),16);
+        vcdp->chgBus(c+1063,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[62]),16);
+        vcdp->chgBus(c+1064,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[63]),16);
+        vcdp->chgBus(c+1065,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[64]),16);
+        vcdp->chgBus(c+1066,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[65]),16);
+        vcdp->chgBus(c+1067,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[66]),16);
+        vcdp->chgBus(c+1068,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[67]),16);
+        vcdp->chgBus(c+1069,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[68]),16);
+        vcdp->chgBus(c+1070,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[69]),16);
+        vcdp->chgBus(c+1071,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[70]),16);
+        vcdp->chgBus(c+1072,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[71]),16);
+        vcdp->chgBus(c+1073,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[72]),16);
+        vcdp->chgBus(c+1074,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[73]),16);
+        vcdp->chgBus(c+1075,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[74]),16);
+        vcdp->chgBus(c+1076,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[75]),16);
+        vcdp->chgBus(c+1077,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[76]),16);
+        vcdp->chgBus(c+1078,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[77]),16);
+        vcdp->chgBus(c+1079,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[78]),16);
+        vcdp->chgBus(c+1080,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[79]),16);
+        vcdp->chgBus(c+1081,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[80]),16);
+        vcdp->chgBus(c+1082,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[81]),16);
+        vcdp->chgBus(c+1083,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[82]),16);
+        vcdp->chgBus(c+1084,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[83]),16);
+        vcdp->chgBus(c+1085,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[84]),16);
+        vcdp->chgBus(c+1086,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[85]),16);
+        vcdp->chgBus(c+1087,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[86]),16);
+        vcdp->chgBus(c+1088,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[87]),16);
+        vcdp->chgBus(c+1089,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[88]),16);
+        vcdp->chgBus(c+1090,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[89]),16);
+        vcdp->chgBus(c+1091,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[90]),16);
+        vcdp->chgBus(c+1092,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[91]),16);
+        vcdp->chgBus(c+1093,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[92]),16);
+        vcdp->chgBus(c+1094,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[93]),16);
+        vcdp->chgBus(c+1095,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[94]),16);
+        vcdp->chgBus(c+1096,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[95]),16);
+        vcdp->chgBus(c+1097,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[96]),16);
+        vcdp->chgBus(c+1098,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[97]),16);
+        vcdp->chgBus(c+1099,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[98]),16);
+        vcdp->chgBus(c+1100,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[99]),16);
+        vcdp->chgBus(c+1101,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[100]),16);
+        vcdp->chgBus(c+1102,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[101]),16);
+        vcdp->chgBus(c+1103,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[102]),16);
+        vcdp->chgBus(c+1104,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[103]),16);
+        vcdp->chgBus(c+1105,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[104]),16);
+        vcdp->chgBus(c+1106,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[105]),16);
+        vcdp->chgBus(c+1107,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[106]),16);
+        vcdp->chgBus(c+1108,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[107]),16);
+        vcdp->chgBus(c+1109,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[108]),16);
+        vcdp->chgBus(c+1110,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[109]),16);
+        vcdp->chgBus(c+1111,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[110]),16);
+        vcdp->chgBus(c+1112,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[111]),16);
+        vcdp->chgBus(c+1113,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[112]),16);
+        vcdp->chgBus(c+1114,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[113]),16);
+        vcdp->chgBus(c+1115,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[114]),16);
+        vcdp->chgBus(c+1116,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[115]),16);
+        vcdp->chgBus(c+1117,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[116]),16);
+        vcdp->chgBus(c+1118,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[117]),16);
+        vcdp->chgBus(c+1119,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[118]),16);
+        vcdp->chgBus(c+1120,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[119]),16);
+        vcdp->chgBus(c+1121,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[120]),16);
+        vcdp->chgBus(c+1122,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[121]),16);
+        vcdp->chgBus(c+1123,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[122]),16);
+        vcdp->chgBus(c+1124,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[123]),16);
+        vcdp->chgBus(c+1125,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[124]),16);
+        vcdp->chgBus(c+1126,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[125]),16);
+        vcdp->chgBus(c+1127,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[126]),16);
+        vcdp->chgBus(c+1128,(vlTOPp->filter_control__DOT__fir_0__DOT__tapmem[127]),16);
+        vcdp->chgBus(c+2025,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[0]),16);
+        vcdp->chgBus(c+2026,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[1]),16);
+        vcdp->chgBus(c+2027,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[2]),16);
+        vcdp->chgBus(c+2028,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[3]),16);
+        vcdp->chgBus(c+2029,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[4]),16);
+        vcdp->chgBus(c+2030,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[5]),16);
+        vcdp->chgBus(c+2031,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[6]),16);
+        vcdp->chgBus(c+2032,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[7]),16);
+        vcdp->chgBus(c+2033,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[8]),16);
+        vcdp->chgBus(c+2034,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[9]),16);
+        vcdp->chgBus(c+2035,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[10]),16);
+        vcdp->chgBus(c+2036,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[11]),16);
+        vcdp->chgBus(c+2037,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[12]),16);
+        vcdp->chgBus(c+2038,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[13]),16);
+        vcdp->chgBus(c+2039,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[14]),16);
+        vcdp->chgBus(c+2040,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[15]),16);
+        vcdp->chgBus(c+2041,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[16]),16);
+        vcdp->chgBus(c+2042,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[17]),16);
+        vcdp->chgBus(c+2043,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[18]),16);
+        vcdp->chgBus(c+2044,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[19]),16);
+        vcdp->chgBus(c+2045,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[20]),16);
+        vcdp->chgBus(c+2046,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[21]),16);
+        vcdp->chgBus(c+2047,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[22]),16);
+        vcdp->chgBus(c+2048,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[23]),16);
+        vcdp->chgBus(c+2049,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[24]),16);
+        vcdp->chgBus(c+2050,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[25]),16);
+        vcdp->chgBus(c+2051,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[26]),16);
+        vcdp->chgBus(c+2052,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[27]),16);
+        vcdp->chgBus(c+2053,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[28]),16);
+        vcdp->chgBus(c+2054,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[29]),16);
+        vcdp->chgBus(c+2055,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[30]),16);
+        vcdp->chgBus(c+2056,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[31]),16);
+        vcdp->chgBus(c+2057,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[32]),16);
+        vcdp->chgBus(c+2058,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[33]),16);
+        vcdp->chgBus(c+2059,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[34]),16);
+        vcdp->chgBus(c+2060,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[35]),16);
+        vcdp->chgBus(c+2061,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[36]),16);
+        vcdp->chgBus(c+2062,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[37]),16);
+        vcdp->chgBus(c+2063,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[38]),16);
+        vcdp->chgBus(c+2064,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[39]),16);
+        vcdp->chgBus(c+2065,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[40]),16);
+        vcdp->chgBus(c+2066,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[41]),16);
+        vcdp->chgBus(c+2067,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[42]),16);
+        vcdp->chgBus(c+2068,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[43]),16);
+        vcdp->chgBus(c+2069,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[44]),16);
+        vcdp->chgBus(c+2070,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[45]),16);
+        vcdp->chgBus(c+2071,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[46]),16);
+        vcdp->chgBus(c+2072,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[47]),16);
+        vcdp->chgBus(c+2073,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[48]),16);
+        vcdp->chgBus(c+2074,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[49]),16);
+        vcdp->chgBus(c+2075,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[50]),16);
+        vcdp->chgBus(c+2076,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[51]),16);
+        vcdp->chgBus(c+2077,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[52]),16);
+        vcdp->chgBus(c+2078,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[53]),16);
+        vcdp->chgBus(c+2079,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[54]),16);
+        vcdp->chgBus(c+2080,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[55]),16);
+        vcdp->chgBus(c+2081,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[56]),16);
+        vcdp->chgBus(c+2082,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[57]),16);
+        vcdp->chgBus(c+2083,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[58]),16);
+        vcdp->chgBus(c+2084,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[59]),16);
+        vcdp->chgBus(c+2085,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[60]),16);
+        vcdp->chgBus(c+2086,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[61]),16);
+        vcdp->chgBus(c+2087,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[62]),16);
+        vcdp->chgBus(c+2088,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[63]),16);
+        vcdp->chgBus(c+2089,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[64]),16);
+        vcdp->chgBus(c+2090,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[65]),16);
+        vcdp->chgBus(c+2091,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[66]),16);
+        vcdp->chgBus(c+2092,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[67]),16);
+        vcdp->chgBus(c+2093,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[68]),16);
+        vcdp->chgBus(c+2094,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[69]),16);
+        vcdp->chgBus(c+2095,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[70]),16);
+        vcdp->chgBus(c+2096,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[71]),16);
+        vcdp->chgBus(c+2097,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[72]),16);
+        vcdp->chgBus(c+2098,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[73]),16);
+        vcdp->chgBus(c+2099,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[74]),16);
+        vcdp->chgBus(c+2100,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[75]),16);
+        vcdp->chgBus(c+2101,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[76]),16);
+        vcdp->chgBus(c+2102,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[77]),16);
+        vcdp->chgBus(c+2103,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[78]),16);
+        vcdp->chgBus(c+2104,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[79]),16);
+        vcdp->chgBus(c+2105,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[80]),16);
+        vcdp->chgBus(c+2106,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[81]),16);
+        vcdp->chgBus(c+2107,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[82]),16);
+        vcdp->chgBus(c+2108,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[83]),16);
+        vcdp->chgBus(c+2109,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[84]),16);
+        vcdp->chgBus(c+2110,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[85]),16);
+        vcdp->chgBus(c+2111,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[86]),16);
+        vcdp->chgBus(c+2112,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[87]),16);
+        vcdp->chgBus(c+2113,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[88]),16);
+        vcdp->chgBus(c+2114,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[89]),16);
+        vcdp->chgBus(c+2115,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[90]),16);
+        vcdp->chgBus(c+2116,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[91]),16);
+        vcdp->chgBus(c+2117,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[92]),16);
+        vcdp->chgBus(c+2118,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[93]),16);
+        vcdp->chgBus(c+2119,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[94]),16);
+        vcdp->chgBus(c+2120,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[95]),16);
+        vcdp->chgBus(c+2121,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[96]),16);
+        vcdp->chgBus(c+2122,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[97]),16);
+        vcdp->chgBus(c+2123,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[98]),16);
+        vcdp->chgBus(c+2124,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[99]),16);
+        vcdp->chgBus(c+2125,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[100]),16);
+        vcdp->chgBus(c+2126,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[101]),16);
+        vcdp->chgBus(c+2127,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[102]),16);
+        vcdp->chgBus(c+2128,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[103]),16);
+        vcdp->chgBus(c+2129,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[104]),16);
+        vcdp->chgBus(c+2130,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[105]),16);
+        vcdp->chgBus(c+2131,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[106]),16);
+        vcdp->chgBus(c+2132,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[107]),16);
+        vcdp->chgBus(c+2133,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[108]),16);
+        vcdp->chgBus(c+2134,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[109]),16);
+        vcdp->chgBus(c+2135,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[110]),16);
+        vcdp->chgBus(c+2136,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[111]),16);
+        vcdp->chgBus(c+2137,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[112]),16);
+        vcdp->chgBus(c+2138,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[113]),16);
+        vcdp->chgBus(c+2139,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[114]),16);
+        vcdp->chgBus(c+2140,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[115]),16);
+        vcdp->chgBus(c+2141,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[116]),16);
+        vcdp->chgBus(c+2142,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[117]),16);
+        vcdp->chgBus(c+2143,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[118]),16);
+        vcdp->chgBus(c+2144,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[119]),16);
+        vcdp->chgBus(c+2145,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[120]),16);
+        vcdp->chgBus(c+2146,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[121]),16);
+        vcdp->chgBus(c+2147,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[122]),16);
+        vcdp->chgBus(c+2148,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[123]),16);
+        vcdp->chgBus(c+2149,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[124]),16);
+        vcdp->chgBus(c+2150,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[125]),16);
+        vcdp->chgBus(c+2151,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[126]),16);
+        vcdp->chgBus(c+2152,(vlTOPp->filter_control__DOT__fir_0__DOT__dmem[127]),16);
     }
 }
 
@@ -730,73 +474,12 @@ void Vfilter_control::traceChgThis__6(Vfilter_control__Syms* __restrict vlSymsp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-        vcdp->chgBus(c+3729,(vlTOPp->filter_control__DOT__state),5);
-        vcdp->chgBus(c+3737,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__0__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3745,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__1__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3753,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__2__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3761,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__3__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3769,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__4__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3777,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__5__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3785,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__6__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3793,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__7__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3801,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__8__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3809,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__9__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3817,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__10__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3825,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__11__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3833,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__12__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3841,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__13__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3849,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__14__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3857,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__15__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3865,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__16__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3873,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__17__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3881,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__18__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3889,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__19__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3897,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__20__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3905,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__21__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3913,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__22__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3921,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__23__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3929,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__24__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3937,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__25__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3945,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__26__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3953,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__27__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3961,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__28__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3969,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__29__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3977,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__30__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3985,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__31__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+3993,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__32__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4001,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__33__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4009,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__34__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4017,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__35__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4025,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__36__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4033,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__37__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4041,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__38__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4049,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__39__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4057,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__40__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4065,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__41__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4073,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__42__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4081,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__43__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4089,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__44__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4097,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__45__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4105,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__46__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4113,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__47__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4121,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__48__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4129,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__49__KET____DOT__tapk__DOT__product),32);
-        vcdp->chgBus(c+4137,(vlTOPp->filter_control__DOT__filter_0__DOT__FILTER__BRA__50__KET____DOT__tapk__DOT__product),32);
-    }
-}
-
-void Vfilter_control::traceChgThis__7(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c = code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-        vcdp->chgBit(c+4145,(vlTOPp->i_clk));
-        vcdp->chgBit(c+4153,(vlTOPp->i_reset));
-        vcdp->chgBit(c+4161,(vlTOPp->i_ce));
-        vcdp->chgBit(c+4169,(vlTOPp->i_start));
-        vcdp->chgBus(c+4177,(vlTOPp->i_sample),16);
-        vcdp->chgBus(c+4185,(vlTOPp->o_result),16);
-        vcdp->chgBit(c+4193,((1U & (~ (IData)(vlTOPp->i_reset)))));
+        vcdp->chgBit(c+3049,(vlTOPp->i_clk));
+        vcdp->chgBit(c+3057,(vlTOPp->i_reset));
+        vcdp->chgBit(c+3065,(vlTOPp->i_ce));
+        vcdp->chgBit(c+3073,(vlTOPp->i_start));
+        vcdp->chgBus(c+3081,(vlTOPp->i_sample),16);
+        vcdp->chgBus(c+3089,(vlTOPp->o_result),16);
+        vcdp->chgBit(c+3097,((1U & (~ (IData)(vlTOPp->i_reset)))));
     }
 }

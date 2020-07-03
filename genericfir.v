@@ -39,7 +39,7 @@
 `default_nettype	none
 //
 module	genericfir(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_result);
-	parameter		NTAPS=51, IW=16, TW=IW, OW=2*IW+7;
+	parameter		NTAPS=103, IW=16, TW=IW, OW=2*IW+7;
 	parameter [0:0]		FIXED_TAPS=1;
 	input	wire			i_clk, i_reset;
 	//
