@@ -36,8 +36,8 @@ void I2S_SLAVE::i2s_init () {
 	bit = 0;
 	word = 0;
 
-	ifstream mic_left ("MIC_1_RIGHT.dat");
-	ifstream mic_right ("MIC_1_RIGHT.dat");
+	ifstream mic_left ("impulse.dat");
+	ifstream mic_right ("impulse.dat");
 
 	string line;
 

@@ -11,9 +11,9 @@ module filter_control
 );
 
 
-logic [4:0] state, next_state; // state machine
+logic [15:0] state, next_state; // state machine
 
-logic [4:0] i_idx; // index for tap coefficient in memory
+logic [15:0] i_idx; // index for tap coefficient in memory
 logic i_tap_wr; // active high
 logic [15:0] i_tap; // new tap input
 
@@ -73,7 +73,7 @@ always_comb begin
 						i_tap_wr = 0;
 					end
 
-		16 		:	begin
+		103 	:	begin
 						next_state = (~i_start) ? 16 : 0; // wait for start to be released
 						i_tap_wr = 0;
 					end
@@ -85,20 +85,15 @@ always_comb begin
 	endcase
 end
 
-coefficients coeff_0 (	.i_idx, 
-						.i_clk, 
-						.o_tap(i_tap)
-						); // memory with coefficients to load
 
-genericfir filter_0 (				
-						
+slowfil filter_0 (				
 						.i_clk, 
 						.i_reset(~i_reset), 
 						.i_tap_wr, 
-						.i_tap, 
+						.i_tap(i_idx), 
 						.i_ce, 
 						.i_sample(left_channel), 
-						.o_result(output)
+						.o_result
 						); // top level for FIR filter
 
 i2s_master i2s_m0 (		.sck(i2s_sck), 

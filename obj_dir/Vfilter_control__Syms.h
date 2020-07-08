@@ -7,7 +7,7 @@
 #ifndef _VFILTER_CONTROL__SYMS_H_
 #define _VFILTER_CONTROL__SYMS_H_  // guard
 
-#include "verilated_heavy.h"
+#include "verilated.h"
 
 // INCLUDE MODULE CLASSES
 #include "Vfilter_control.h"
