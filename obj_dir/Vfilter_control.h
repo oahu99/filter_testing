@@ -29,11 +29,15 @@ VL_MODULE(Vfilter_control) {
     VL_IN8(i_ce,0,0);
     VL_IN8(i_start,0,0);
     VL_IN16(i_sample,15,0);
-    VL_OUT16(o_result,15,0);
+    VL_OUT(o_result,31,0);
     
     // LOCAL SIGNALS
     // Internals; generally not touched by application code
     CData/*0:0*/ filter_control__DOT__i_tap_wr;
+    CData/*0:0*/ filter_control__DOT__add_0__DOT__operation_sub_addBar;
+    CData/*7:0*/ filter_control__DOT__add_0__DOT__exponent_diff;
+    CData/*0:0*/ filter_control__DOT__add_0__DOT__perform;
+    CData/*4:0*/ filter_control__DOT__add_0__DOT__pe__DOT__shift;
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__o_ce;
     CData/*6:0*/ filter_control__DOT__fir_0__DOT__dwidx;
     CData/*6:0*/ filter_control__DOT__fir_0__DOT__didx;
@@ -43,17 +47,51 @@ VL_MODULE(Vfilter_control) {
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_ce;
     CData/*2:0*/ filter_control__DOT__fir_0__DOT__pre_acc_ce;
     CData/*6:0*/ filter_control__DOT__fir_0__DOT__genblk2__DOT__tapwidx;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operation_sub_addBar;
+    CData/*7:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__exponent_diff;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__perform;
+    CData/*4:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__pe__DOT__shift;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__Exception;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sign;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__zero;
     SData/*8:0*/ filter_control__DOT__state;
     SData/*8:0*/ filter_control__DOT__next_state;
     SData/*15:0*/ filter_control__DOT__i_tap;
-    SData/*15:0*/ filter_control__DOT__fir_0__DOT__tap;
-    SData/*15:0*/ filter_control__DOT__fir_0__DOT__data;
+    SData/*15:0*/ filter_control__DOT__counter;
+    SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__exponent;
+    SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent;
+    IData/*31:0*/ filter_control__DOT__out;
+    IData/*31:0*/ filter_control__DOT__impulse;
+    IData/*31:0*/ filter_control__DOT__tap;
+    IData/*31:0*/ filter_control__DOT__add_0__DOT__operand_a;
+    IData/*31:0*/ filter_control__DOT__add_0__DOT__operand_b;
+    IData/*23:0*/ filter_control__DOT__add_0__DOT__significand_a;
+    IData/*23:0*/ filter_control__DOT__add_0__DOT__significand_b_add_sub;
+    IData/*24:0*/ filter_control__DOT__add_0__DOT__significand_add;
+    IData/*30:0*/ filter_control__DOT__add_0__DOT__add_sum;
+    IData/*24:0*/ filter_control__DOT__add_0__DOT__significand_sub;
+    IData/*30:0*/ filter_control__DOT__add_0__DOT__sub_diff;
+    IData/*24:0*/ filter_control__DOT__add_0__DOT__subtraction_diff;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__tap;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__data;
     IData/*31:0*/ filter_control__DOT__fir_0__DOT__product;
-    QData/*38:0*/ filter_control__DOT__out;
-    QData/*38:0*/ filter_control__DOT__fir_0__DOT__r_acc;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__r_acc;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_a;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b;
+    IData/*23:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_a;
+    IData/*23:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_b_add_sub;
+    IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_add;
+    IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__add_sum;
+    IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_sub;
+    IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__sub_diff;
+    IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__subtraction_diff;
+    IData/*22:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa;
+    IData/*23:0*/ filter_control__DOT__convert_0__DOT__Integer_Value;
+    QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product;
+    QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised;
     SData/*15:0*/ filter_control__DOT__i_taps_arr_0[103];
-    SData/*15:0*/ filter_control__DOT__fir_0__DOT__tapmem[128];
-    SData/*15:0*/ filter_control__DOT__fir_0__DOT__dmem[128];
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__tapmem[128];
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__dmem[128];
     
     // LOCAL VARIABLES
     // Internals; generally not touched by application code

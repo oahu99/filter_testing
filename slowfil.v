@@ -27,7 +27,8 @@
 //
 // The DSP filtering designs are distributed in the hope that they will be
 // useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTIBILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser
+// MERCHANTIBILITY or FITNESS FOR
+// A PARTICULAR PURPOSE.  See the GNU Lesser
 // General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
@@ -44,8 +45,8 @@
 `default_nettype	none
 //
 module	slowfil(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_ce, o_result);
-	parameter	LGNTAPS = 7, IW=16, TW=16, OW = IW+TW+LGNTAPS;
-	parameter	[LGNTAPS:0]	NTAPS = 103; // (1<<LGNTAPS);
+	parameter	LGNTAPS = 7, IW=32, TW=32, OW = IW;
+	parameter	[LGNTAPS:0]	NTAPS = 127; // (1<<LGNTAPS);
 	parameter	[0:0]		FIXED_TAPS = 1'b0;
 	parameter			INITIAL_COEFFS  = "";
 	localparam	MEMSZ = (1<<LGNTAPS);
@@ -84,7 +85,7 @@ module	slowfil(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_ce, o_result);
 	reg	d_ce, p_ce, m_ce;
 	//
 	// The product and accumulator values for the filter
-	reg	signed [(IW+TW-1):0]	product;
+	reg	signed [(IW-1):0]	product;
 	reg	signed [(OW-1):0]	r_acc;
 
 	//
@@ -92,6 +93,28 @@ module	slowfil(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_ce, o_result);
 	// Allow the user to set the taps
 	//
 	//
+
+	// Floating point modules instantiation
+
+	logic [31:0] addition_result;
+	logic [31:0] multiplication_result;
+
+	Addition_Subtraction add_sub0 (
+		.a_operand(r_acc),
+		.b_operand(product),
+		.AddBar_Sub(0),
+		.Exception(),
+		.result(addition_result)
+		);
+
+	Multiplication m_0 (
+		.a_operand(tap),
+		.b_operand(data),
+		.Exception(),
+		.Overflow(),
+		.Underflow(),
+		.result(multiplication_result)
+		);
 
 	// Starting at zero on reset, increment the tap write index on any
 	// write of a new tap.  This also means that changing coefficients
@@ -219,15 +242,20 @@ module	slowfil(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_ce, o_result);
 
 	initial	product = 0;
 	always @(posedge i_clk)
-		product <= tap * data;
+		// product <= tap * data;
+		product <= multiplication_result;
 
 	initial	r_acc = 0;
 	always @(posedge i_clk)
-		if (p_ce)
-			r_acc <={ {(OW-(IW+TW)){product[(IW+TW-1)]}}, product };
-		else if (pre_acc_ce[2])
-			r_acc <= r_acc + { {(OW-(IW+TW)){product[(IW+TW-1)]}},
-						product };
+		if (p_ce) begin
+			// r_acc <={ {(OW-(IW+TW)){product[(IW+TW-1)]}}, product };
+			r_acc <= product;
+		end
+		else if (pre_acc_ce[2]) begin
+			//r_acc <= r_acc + { {(OW-(IW+TW)){product[(IW+TW-1)]}},
+			//			product };
+			r_acc <= addition_result;
+		end
 
 	//
 	//

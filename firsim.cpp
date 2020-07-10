@@ -84,7 +84,7 @@ int main() {
 			ce_flag = 1;
 
 			cout<< tb->o_result << "\n";
-			//printf("%hd\n", tb->o_result);
+			//printf("%f\n", tb->o_result);
 			i++;
 		}
 
