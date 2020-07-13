@@ -48,8 +48,8 @@ int main() {
 	long unsigned int counter;
 	bool i_ce = 0;
 
-	//ifstream mic_left ("MIC_1_RIGHT.dat");
-	ifstream mic_left ("impulse.dat");
+	ifstream mic_left ("MIC_1_RIGHT.dat");
+	//ifstream mic_left ("impulse.dat");
 
 
 	string line;

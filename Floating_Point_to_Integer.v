@@ -9,10 +9,11 @@
 
 module Floating_Point_to_Integer(
 		input [31:0] a_operand,
-		output [31:0] Integer
+		output [15:0] Integer
 		);
 
 reg [23:0] Integer_Value;
+reg [32:0] intermediate;
 
 always @(*)
 begin
@@ -166,6 +167,7 @@ begin
 			end
 end
 
-assign Integer = {a_operand[31:23],Integer_Value[23:1]};
+assign intermediate = {a_operand[31:23],Integer_Value[23:1]};
+assign Integer = intermediate[31:15] - 3840;
 
 endmodule
