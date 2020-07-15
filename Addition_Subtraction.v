@@ -13,7 +13,7 @@ module Addition_Subtraction(
 input [31:0] a_operand,b_operand, //Inputs in the format of IEEE-754 Representation.
 input AddBar_Sub,	//If Add_Sub is low then Addition else Subtraction.
 output Exception,
-output [31:0] result //Outputs in the format of IEEE-754 Representation.
+output reg [31:0] result //Outputs in the format of IEEE-754 Representation.
 );
 
 wire operation_sub_addBar;
@@ -95,7 +95,13 @@ assign sub_diff[22:0] = subtraction_diff[22:0];
 
 //If there is no exception and operation will evaluate
 
-
-assign result = Exception ? 32'b0 : ((!operation_sub_addBar) ? {output_sign,sub_diff} : {output_sign,add_sum});
+always @ (*) begin
+	if (a_operand[30:0] == 0)
+		result = b_operand;
+	else if (b_operand[30:0] == 0)
+		result = a_operand;
+	else
+		result = Exception ? 32'b0 : ((!operation_sub_addBar) ? {output_sign,sub_diff} : {output_sign,add_sum});
+end
 
 endmodule

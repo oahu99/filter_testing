@@ -33,77 +33,54 @@ VL_MODULE(Vfilter_control) {
     
     // LOCAL SIGNALS
     // Internals; generally not touched by application code
-    // Anonymous structures to workaround compiler member-count bugs
-    struct {
-        CData/*0:0*/ filter_control__DOT__i_tap_wr;
-        CData/*0:0*/ filter_control__DOT__add_0__DOT__operation_sub_addBar;
-        CData/*7:0*/ filter_control__DOT__add_0__DOT__exponent_diff;
-        CData/*0:0*/ filter_control__DOT__add_0__DOT__perform;
-        CData/*4:0*/ filter_control__DOT__add_0__DOT__pe__DOT__shift;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__o_ce;
-        CData/*6:0*/ filter_control__DOT__fir_0__DOT__dwidx;
-        CData/*6:0*/ filter_control__DOT__fir_0__DOT__didx;
-        CData/*6:0*/ filter_control__DOT__fir_0__DOT__tidx;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__d_ce;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__p_ce;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_ce;
-        CData/*2:0*/ filter_control__DOT__fir_0__DOT__pre_acc_ce;
-        CData/*6:0*/ filter_control__DOT__fir_0__DOT__genblk2__DOT__tapwidx;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operation_sub_addBar;
-        CData/*7:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__exponent_diff;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__perform;
-        CData/*4:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__pe__DOT__shift;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__Exception;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sign;
-        CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__zero;
-        CData/*5:0*/ filter_control__DOT__fixed_0__DOT__state;
-        CData/*5:0*/ filter_control__DOT__fixed_0__DOT__next_state;
-        CData/*7:0*/ filter_control__DOT__fixed_0__DOT__exponent;
-        CData/*0:0*/ filter_control__DOT__fixed_0__DOT__sign;
-        SData/*15:0*/ filter_control__DOT__state;
-        SData/*15:0*/ filter_control__DOT__next_state;
-        SData/*15:0*/ filter_control__DOT__i_tap;
-        SData/*15:0*/ filter_control__DOT__counter;
-        SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__exponent;
-        SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent;
-        SData/*15:0*/ filter_control__DOT__fixed_0__DOT__unsigned_fixed;
-        IData/*31:0*/ filter_control__DOT__out;
-        IData/*31:0*/ filter_control__DOT__impulse;
-        IData/*31:0*/ filter_control__DOT__tap;
-        IData/*31:0*/ filter_control__DOT__o_float;
-        IData/*31:0*/ filter_control__DOT__add_0__DOT__operand_a;
-        IData/*31:0*/ filter_control__DOT__add_0__DOT__operand_b;
-        IData/*23:0*/ filter_control__DOT__add_0__DOT__significand_a;
-        IData/*23:0*/ filter_control__DOT__add_0__DOT__significand_b_add_sub;
-        IData/*24:0*/ filter_control__DOT__add_0__DOT__significand_add;
-        IData/*30:0*/ filter_control__DOT__add_0__DOT__add_sum;
-        IData/*24:0*/ filter_control__DOT__add_0__DOT__significand_sub;
-        IData/*30:0*/ filter_control__DOT__add_0__DOT__sub_diff;
-        IData/*24:0*/ filter_control__DOT__add_0__DOT__subtraction_diff;
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__tap;
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__data;
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__product;
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__r_acc;
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_a;
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b;
-        IData/*23:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_a;
-        IData/*23:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_b_add_sub;
-        IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_add;
-        IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__add_sum;
-        IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_sub;
-        IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__sub_diff;
-        IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__subtraction_diff;
-        IData/*22:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa;
-        IData/*23:0*/ filter_control__DOT__convert_0__DOT__Integer_Value;
-        IData/*22:0*/ filter_control__DOT__fixed_0__DOT__mantissa;
-        QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product;
-        QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised;
-        SData/*15:0*/ filter_control__DOT__i_taps_arr_0[103];
-    };
-    struct {
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__tapmem[128];
-        IData/*31:0*/ filter_control__DOT__fir_0__DOT__dmem[128];
-    };
+    CData/*0:0*/ filter_control__DOT__i_tap_wr;
+    CData/*0:0*/ filter_control__DOT__i_ce_local;
+    CData/*7:0*/ filter_control__DOT__fixed_0__DOT__exponent;
+    CData/*0:0*/ filter_control__DOT__fixed_0__DOT__sign;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__o_ce;
+    CData/*6:0*/ filter_control__DOT__fir_0__DOT__dwidx;
+    CData/*6:0*/ filter_control__DOT__fir_0__DOT__didx;
+    CData/*6:0*/ filter_control__DOT__fir_0__DOT__tidx;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__d_ce;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__p_ce;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_ce;
+    CData/*2:0*/ filter_control__DOT__fir_0__DOT__pre_acc_ce;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operation_sub_addBar;
+    CData/*7:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__exponent_diff;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__perform;
+    CData/*4:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__pe__DOT__shift;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__Exception;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sign;
+    CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__zero;
+    SData/*15:0*/ filter_control__DOT__i_tap;
+    SData/*15:0*/ filter_control__DOT__fixed_0__DOT__unsigned_fixed;
+    SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__exponent;
+    SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent;
+    SData/*15:0*/ filter_control__DOT__convert_0__DOT__unsigned_int;
+    IData/*31:0*/ filter_control__DOT__impulse;
+    IData/*31:0*/ filter_control__DOT__out;
+    IData/*31:0*/ filter_control__DOT__o_float;
+    IData/*22:0*/ filter_control__DOT__fixed_0__DOT__mantissa;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__tap;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__data;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__product;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__r_acc;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__addition_result;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_a;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b;
+    IData/*23:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_a;
+    IData/*23:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_b_add_sub;
+    IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_add;
+    IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__add_sum;
+    IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_sub;
+    IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__sub_diff;
+    IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__subtraction_diff;
+    IData/*22:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa;
+    QData/*63:0*/ filter_control__DOT__counter;
+    QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product;
+    QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised;
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__tapmem[128];
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__dmem[128];
     
     // LOCAL VARIABLES
     // Internals; generally not touched by application code
@@ -143,8 +120,7 @@ VL_MODULE(Vfilter_control) {
   private:
     static QData _change_request(Vfilter_control__Syms* __restrict vlSymsp);
   public:
-    static void _combo__TOP__2(Vfilter_control__Syms* __restrict vlSymsp);
-    static void _combo__TOP__5(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _combo__TOP__4(Vfilter_control__Syms* __restrict vlSymsp);
   private:
     void _ctor_var_reset() VL_ATTR_COLD;
   public:
@@ -157,7 +133,7 @@ VL_MODULE(Vfilter_control) {
     static void _eval_initial(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void _eval_settle(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void _initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
-    static void _sequent__TOP__4(Vfilter_control__Syms* __restrict vlSymsp);
+    static void _sequent__TOP__2(Vfilter_control__Syms* __restrict vlSymsp);
     static void _settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void traceChgThis(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__2(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);

@@ -47,8 +47,8 @@
 module	slowfil(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_ce, o_result);
 	parameter	LGNTAPS = 7, IW=32, TW=32, OW = IW;
 	parameter	[LGNTAPS:0]	NTAPS = 127; // (1<<LGNTAPS);
-	parameter	[0:0]		FIXED_TAPS = 1'b0;
-	parameter			INITIAL_COEFFS  = "";
+	parameter	[0:0]		FIXED_TAPS = 1'b1;
+	parameter			INITIAL_COEFFS  = "taps.dat";
 	localparam	MEMSZ = (1<<LGNTAPS);
 	//
 	// Control inputs (wires)

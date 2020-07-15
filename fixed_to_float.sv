@@ -2,9 +2,6 @@ module fixed_to_float (
 	input 	logic 	[15:0] 	i_fixed,
 	output 	logic 	[31:0] 	o_float
 	);
-	
-	// registers for state machine operation
-	logic 	[5:0] 	state, next_state;
 
 	// register to hold value for exponent bits
 	logic 	[7:0] 	exponent;
@@ -97,6 +94,11 @@ module fixed_to_float (
 
 		else if (unsigned_fixed[0]) begin
 			exponent = 127;
+			mantissa = 0;
+		end
+
+		else begin
+			exponent = 0;
 			mantissa = 0;
 		end
 
