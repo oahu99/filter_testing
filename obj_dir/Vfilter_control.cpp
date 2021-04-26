@@ -87,12 +87,19 @@ void Vfilter_control::_eval_initial_loop(Vfilter_control__Syms* __restrict vlSym
 void Vfilter_control::_initial__TOP__1(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_initial__TOP__1\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Variables
+    WData/*127:0*/ __Vtemp1[4];
     // Body
     vlTOPp->filter_control__DOT__fir_0__DOT__o_ce = 0U;
+    vlTOPp->filter_control__DOT__dc0__DOT__done = 0U;
     vlTOPp->filter_control__DOT__out = 0U;
     vlTOPp->filter_control__DOT__fir_0__DOT__tap = 0U;
     vlTOPp->filter_control__DOT__fir_0__DOT__data = 0U;
-    VL_READMEM_N(true, 32, 128, 0, std::string("taps.dat")
+    __Vtemp1[0U] = 0x2e646174U;
+    __Vtemp1[1U] = 0x74657374U;
+    __Vtemp1[2U] = 0x79616e5fU;
+    __Vtemp1[3U] = 0x72U;
+    VL_READMEM_N(true, 32, 2048, 0, VL_CVT_PACK_STR_NW(4, __Vtemp1)
                  , vlTOPp->filter_control__DOT__fir_0__DOT__tapmem
                  , 0, ~VL_ULL(0));
     vlTOPp->filter_control__DOT__fir_0__DOT__dwidx = 0U;
@@ -110,13 +117,19 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_sequent__TOP__2\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    CData/*6:0*/ __Vdly__filter_control__DOT__fir_0__DOT__dwidx;
-    CData/*6:0*/ __Vdlyvdim0__filter_control__DOT__fir_0__DOT__dmem__v0;
     CData/*0:0*/ __Vdlyvset__filter_control__DOT__fir_0__DOT__dmem__v0;
     CData/*2:0*/ __Vdly__filter_control__DOT__fir_0__DOT__pre_acc_ce;
-    CData/*6:0*/ __Vdly__filter_control__DOT__fir_0__DOT__didx;
-    CData/*6:0*/ __Vdly__filter_control__DOT__fir_0__DOT__tidx;
+    SData/*10:0*/ __Vdly__filter_control__DOT__fir_0__DOT__dwidx;
+    SData/*10:0*/ __Vdlyvdim0__filter_control__DOT__fir_0__DOT__dmem__v0;
+    SData/*10:0*/ __Vdly__filter_control__DOT__fir_0__DOT__didx;
+    SData/*10:0*/ __Vdly__filter_control__DOT__fir_0__DOT__tidx;
+    WData/*127:0*/ __Vdly__filter_control__DOT__dc0__DOT__accumulate[4];
     IData/*31:0*/ __Vdlyvval__filter_control__DOT__fir_0__DOT__dmem__v0;
+    WData/*127:0*/ __Vtemp2[4];
+    WData/*127:0*/ __Vtemp3[4];
+    WData/*127:0*/ __Vtemp4[4];
+    WData/*127:0*/ __Vtemp10[4];
+    WData/*127:0*/ __Vtemp11[4];
     // Body
     __Vdly__filter_control__DOT__fir_0__DOT__tidx = vlTOPp->filter_control__DOT__fir_0__DOT__tidx;
     __Vdly__filter_control__DOT__fir_0__DOT__dwidx 
@@ -125,17 +138,25 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
     __Vdlyvset__filter_control__DOT__fir_0__DOT__dmem__v0 = 0U;
     __Vdly__filter_control__DOT__fir_0__DOT__pre_acc_ce 
         = vlTOPp->filter_control__DOT__fir_0__DOT__pre_acc_ce;
+    __Vdly__filter_control__DOT__dc0__DOT__accumulate[0U] 
+        = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[0U];
+    __Vdly__filter_control__DOT__dc0__DOT__accumulate[1U] 
+        = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[1U];
+    __Vdly__filter_control__DOT__dc0__DOT__accumulate[2U] 
+        = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[2U];
+    __Vdly__filter_control__DOT__dc0__DOT__accumulate[3U] 
+        = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[3U];
     __Vdly__filter_control__DOT__fir_0__DOT__tidx = 
-        ((IData)(vlTOPp->i_ce) ? 0U : (0x7fU & ((IData)(1U) 
-                                                + (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__tidx))));
+        ((IData)(vlTOPp->i_ce) ? 0U : (0x7ffU & ((IData)(1U) 
+                                                 + (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__tidx))));
     if (vlTOPp->i_ce) {
         __Vdly__filter_control__DOT__fir_0__DOT__dwidx 
-            = (0x7fU & ((IData)(1U) + (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__dwidx)));
+            = (0x7ffU & ((IData)(1U) + (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__dwidx)));
     }
     __Vdly__filter_control__DOT__fir_0__DOT__didx = 
-        (0x7fU & ((IData)(vlTOPp->i_ce) ? (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__dwidx)
-                   : ((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__didx) 
-                      - (IData)(1U))));
+        (0x7ffU & ((IData)(vlTOPp->i_ce) ? (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__dwidx)
+                    : ((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__didx) 
+                       - (IData)(1U))));
     if (vlTOPp->i_ce) {
         __Vdlyvval__filter_control__DOT__fir_0__DOT__dmem__v0 
             = vlTOPp->filter_control__DOT__o_float;
@@ -152,11 +173,56 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
            | ((IData)(vlTOPp->i_reset) & ((IData)(vlTOPp->i_ce) 
                                           | ((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__pre_acc_ce) 
                                              & (1U 
-                                                < ((IData)(0x7fU) 
+                                                < ((IData)(0x7ffU) 
                                                    - (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__tidx)))))));
     vlTOPp->filter_control__DOT__fir_0__DOT__o_ce = 
         ((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__p_ce) 
          & (IData)(vlTOPp->i_reset));
+    if (vlTOPp->i_reset) {
+        __Vtemp2[0U] = 0x800U;
+        __Vtemp2[1U] = 0U;
+        __Vtemp2[2U] = 0U;
+        __Vtemp2[3U] = 0U;
+        if (VL_GT_W(4, __Vtemp2, vlTOPp->filter_control__DOT__dc0__DOT__state)) {
+            VL_EXTEND_WI(128,16, __Vtemp3, (IData)(vlTOPp->i_sample));
+            VL_ADD_W(4, __Vtemp4, vlTOPp->filter_control__DOT__dc0__DOT__accumulate, __Vtemp3);
+            __Vdly__filter_control__DOT__dc0__DOT__accumulate[0U] 
+                = __Vtemp4[0U];
+            __Vdly__filter_control__DOT__dc0__DOT__accumulate[1U] 
+                = __Vtemp4[1U];
+            __Vdly__filter_control__DOT__dc0__DOT__accumulate[2U] 
+                = __Vtemp4[2U];
+            __Vdly__filter_control__DOT__dc0__DOT__accumulate[3U] 
+                = __Vtemp4[3U];
+        } else {
+            if ((0U == ((((0x800U ^ vlTOPp->filter_control__DOT__dc0__DOT__state[0U]) 
+                          | vlTOPp->filter_control__DOT__dc0__DOT__state[1U]) 
+                         | vlTOPp->filter_control__DOT__dc0__DOT__state[2U]) 
+                        | vlTOPp->filter_control__DOT__dc0__DOT__state[3U]))) {
+                vlTOPp->filter_control__DOT__dc0__DOT__offset[0U] 
+                    = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[0U];
+                vlTOPp->filter_control__DOT__dc0__DOT__offset[1U] 
+                    = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[1U];
+                vlTOPp->filter_control__DOT__dc0__DOT__offset[2U] 
+                    = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[2U];
+                vlTOPp->filter_control__DOT__dc0__DOT__offset[3U] 
+                    = vlTOPp->filter_control__DOT__dc0__DOT__accumulate[3U];
+                __Vdly__filter_control__DOT__dc0__DOT__accumulate[0U] = 0U;
+                __Vdly__filter_control__DOT__dc0__DOT__accumulate[1U] = 0U;
+                __Vdly__filter_control__DOT__dc0__DOT__accumulate[2U] = 0U;
+                __Vdly__filter_control__DOT__dc0__DOT__accumulate[3U] = 0U;
+            }
+        }
+    } else {
+        __Vdly__filter_control__DOT__dc0__DOT__accumulate[0U] = 0U;
+        __Vdly__filter_control__DOT__dc0__DOT__accumulate[1U] = 0U;
+        __Vdly__filter_control__DOT__dc0__DOT__accumulate[2U] = 0U;
+        __Vdly__filter_control__DOT__dc0__DOT__accumulate[3U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__offset[0U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__offset[1U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__offset[2U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__offset[3U] = 0U;
+    }
     vlTOPp->filter_control__DOT__fir_0__DOT__tap = 
         vlTOPp->filter_control__DOT__fir_0__DOT__tapmem
         [vlTOPp->filter_control__DOT__fir_0__DOT__tidx];
@@ -168,17 +234,32 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
     }
     vlTOPp->filter_control__DOT__fir_0__DOT__dwidx 
         = __Vdly__filter_control__DOT__fir_0__DOT__dwidx;
+    vlTOPp->filter_control__DOT__dc0__DOT__accumulate[0U] 
+        = __Vdly__filter_control__DOT__dc0__DOT__accumulate[0U];
+    vlTOPp->filter_control__DOT__dc0__DOT__accumulate[1U] 
+        = __Vdly__filter_control__DOT__dc0__DOT__accumulate[1U];
+    vlTOPp->filter_control__DOT__dc0__DOT__accumulate[2U] 
+        = __Vdly__filter_control__DOT__dc0__DOT__accumulate[2U];
+    vlTOPp->filter_control__DOT__dc0__DOT__accumulate[3U] 
+        = __Vdly__filter_control__DOT__dc0__DOT__accumulate[3U];
     vlTOPp->filter_control__DOT__fir_0__DOT__tidx = __Vdly__filter_control__DOT__fir_0__DOT__tidx;
     if (__Vdlyvset__filter_control__DOT__fir_0__DOT__dmem__v0) {
         vlTOPp->filter_control__DOT__fir_0__DOT__dmem[__Vdlyvdim0__filter_control__DOT__fir_0__DOT__dmem__v0] 
             = __Vdlyvval__filter_control__DOT__fir_0__DOT__dmem__v0;
     }
     vlTOPp->filter_control__DOT__fir_0__DOT__didx = __Vdly__filter_control__DOT__fir_0__DOT__didx;
-    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent 
-        = (0x1ffU & ((0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__tap 
-                               >> 0x17U)) + (0xffU 
-                                             & (vlTOPp->filter_control__DOT__fir_0__DOT__data 
-                                                >> 0x17U))));
+    vlTOPp->filter_control__DOT__dc0__DOT__state[0U] 
+        = ((IData)(vlTOPp->i_reset) ? vlTOPp->filter_control__DOT__dc0__DOT__next_state[0U]
+            : 0U);
+    vlTOPp->filter_control__DOT__dc0__DOT__state[1U] 
+        = ((IData)(vlTOPp->i_reset) ? vlTOPp->filter_control__DOT__dc0__DOT__next_state[1U]
+            : 0U);
+    vlTOPp->filter_control__DOT__dc0__DOT__state[2U] 
+        = ((IData)(vlTOPp->i_reset) ? vlTOPp->filter_control__DOT__dc0__DOT__next_state[2U]
+            : 0U);
+    vlTOPp->filter_control__DOT__dc0__DOT__state[3U] 
+        = ((IData)(vlTOPp->i_reset) ? vlTOPp->filter_control__DOT__dc0__DOT__next_state[3U]
+            : 0U);
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
         = (VL_ULL(0xffffffffffff) & ((QData)((IData)(
                                                      ((0U 
@@ -359,15 +440,36 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
                 = vlTOPp->filter_control__DOT__fir_0__DOT__addition_result;
         }
     }
-    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
-        = (VL_ULL(0xffffffffffff) & ((1U & (IData)(
-                                                   (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
-                                                    >> 0x2fU)))
-                                      ? vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product
-                                      : (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
-                                         << 1U)));
     vlTOPp->filter_control__DOT__fir_0__DOT__pre_acc_ce 
         = __Vdly__filter_control__DOT__fir_0__DOT__pre_acc_ce;
+    if ((0U == ((((0x800U ^ vlTOPp->filter_control__DOT__dc0__DOT__state[0U]) 
+                  | vlTOPp->filter_control__DOT__dc0__DOT__state[1U]) 
+                 | vlTOPp->filter_control__DOT__dc0__DOT__state[2U]) 
+                | vlTOPp->filter_control__DOT__dc0__DOT__state[3U]))) {
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[0U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[1U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[2U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[3U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__done = 1U;
+    } else {
+        __Vtemp10[0U] = 1U;
+        __Vtemp10[1U] = 0U;
+        __Vtemp10[2U] = 0U;
+        __Vtemp10[3U] = 0U;
+        VL_ADD_W(4, __Vtemp11, __Vtemp10, vlTOPp->filter_control__DOT__dc0__DOT__state);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[0U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp11[0U]);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[1U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp11[1U]);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[2U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp11[2U]);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[3U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp11[3U]);
+    }
     vlTOPp->filter_control__DOT__fir_0__DOT__p_ce = 
         ((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__d_ce) 
          & (IData)(vlTOPp->i_reset));
@@ -395,26 +497,38 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
                                              | ((0x7f800000U 
                                                  & ((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__exponent) 
                                                     << 0x17U)) 
-                                                | vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa))))));
+                                                | (0x7fffffU 
+                                                   & ((IData)(
+                                                              (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
+                                                               >> 0x18U)) 
+                                                      + 
+                                                      (1U 
+                                                       & ((IData)(
+                                                                  (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
+                                                                   >> 0x17U)) 
+                                                          & (0U 
+                                                             != 
+                                                             (0x7fffffU 
+                                                              & (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised)))))))))))));
+    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
+        = (VL_ULL(0xffffffffffff) & ((1U & (IData)(
+                                                   (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
+                                                    >> 0x2fU)))
+                                      ? vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product
+                                      : (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
+                                         << 1U)));
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sign 
         = (1U & ((vlTOPp->filter_control__DOT__fir_0__DOT__tap 
                   ^ vlTOPp->filter_control__DOT__fir_0__DOT__data) 
                  >> 0x1fU));
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__exponent 
-        = (0x1ffU & (((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent) 
+        = (0x1ffU & ((((0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__tap 
+                                 >> 0x17U)) + (0xffU 
+                                               & (vlTOPp->filter_control__DOT__fir_0__DOT__data 
+                                                  >> 0x17U))) 
                       - (IData)(0x7fU)) + (1U & (IData)(
                                                         (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
                                                          >> 0x2fU)))));
-    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa 
-        = (0x7fffffU & ((IData)((vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
-                                 >> 0x18U)) + (1U & 
-                                               ((IData)(
-                                                        (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
-                                                         >> 0x17U)) 
-                                                & (0U 
-                                                   != 
-                                                   (0x7fffffU 
-                                                    & (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised)))))));
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__Exception 
         = ((0xffU == (0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__tap 
                                >> 0x17U))) | (0xffU 
@@ -426,8 +540,8 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
          & (IData)(vlTOPp->i_reset));
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__zero 
         = ((~ (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__Exception)) 
-           & ((0U == vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa) 
-              & (0U == (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent))));
+           & ((0U == (0x7fffffffU & vlTOPp->filter_control__DOT__fir_0__DOT__tap)) 
+              | (0U == (0x7fffffffU & vlTOPp->filter_control__DOT__fir_0__DOT__data))));
     vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b 
         = (((0x7fffffffU & vlTOPp->filter_control__DOT__fir_0__DOT__r_acc) 
             < (0x7fffffffU & vlTOPp->filter_control__DOT__fir_0__DOT__product))
@@ -848,144 +962,47 @@ VL_INLINE_OPT void Vfilter_control::_sequent__TOP__2(Vfilter_control__Syms* __re
 void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_settle__TOP__3\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Variables
+    WData/*127:0*/ __Vtemp21[4];
+    WData/*127:0*/ __Vtemp22[4];
+    WData/*127:0*/ __Vtemp23[4];
+    WData/*127:0*/ __Vtemp24[4];
+    WData/*127:0*/ __Vtemp27[4];
+    WData/*127:0*/ __Vtemp28[4];
     // Body
-    vlTOPp->filter_control__DOT__fixed_0__DOT__sign 
-        = (1U & ((IData)(vlTOPp->i_sample) >> 0xfU));
-    vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed 
-        = (0xffffU & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__sign)
-                       ? ((IData)(1U) + (~ (IData)(vlTOPp->i_sample)))
-                       : (IData)(vlTOPp->i_sample)));
-    vlTOPp->filter_control__DOT__o_float = (((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__sign) 
-                                             << 0x1fU) 
-                                            | (((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__exponent) 
-                                                << 0x17U) 
-                                               | vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa));
-    if ((0x4000U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8dU;
-        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-            = (0x7ffe00U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                            << 9U));
+    VL_EXTEND_WI(128,16, __Vtemp21, (IData)(vlTOPp->i_sample));
+    VL_SHIFTR_WWI(128,128,32, __Vtemp22, vlTOPp->filter_control__DOT__dc0__DOT__offset, 0xbU);
+    VL_SUB_W(4, __Vtemp23, __Vtemp21, __Vtemp22);
+    VL_SHIFTL_WWI(128,128,32, __Vtemp24, __Vtemp23, 2U);
+    vlTOPp->filter_control__DOT__normalized = (0xffffU 
+                                               & __Vtemp24[0U]);
+    if ((0U == ((((0x800U ^ vlTOPp->filter_control__DOT__dc0__DOT__state[0U]) 
+                  | vlTOPp->filter_control__DOT__dc0__DOT__state[1U]) 
+                 | vlTOPp->filter_control__DOT__dc0__DOT__state[2U]) 
+                | vlTOPp->filter_control__DOT__dc0__DOT__state[3U]))) {
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[0U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[1U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[2U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[3U] = 0U;
+        vlTOPp->filter_control__DOT__dc0__DOT__done = 1U;
     } else {
-        if ((0x2000U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8cU;
-            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                = (0x7ffc00U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                << 0xaU));
-        } else {
-            if ((0x1000U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8bU;
-                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                    = (0x7ff800U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                    << 0xbU));
-            } else {
-                if ((0x800U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                    vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8aU;
-                    vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                        = (0x7ff000U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                        << 0xcU));
-                } else {
-                    if ((0x400U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x89U;
-                        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                            = (0x7fe000U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                            << 0xdU));
-                    } else {
-                        if ((0x200U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x88U;
-                            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                = (0x7fc000U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                << 0xeU));
-                        } else {
-                            if ((0x100U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x87U;
-                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                    = (0x7f8000U & 
-                                       ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                        << 0xfU));
-                            } else {
-                                if ((0x80U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                    vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x86U;
-                                    vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                        = (0x7f0000U 
-                                           & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                              << 0x10U));
-                                } else {
-                                    if ((0x40U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x85U;
-                                        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                            = (0x7e0000U 
-                                               & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                  << 0x11U));
-                                    } else {
-                                        if ((0x20U 
-                                             & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x84U;
-                                            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                                = (0x7c0000U 
-                                                   & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                      << 0x12U));
-                                        } else {
-                                            if ((0x10U 
-                                                 & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x83U;
-                                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                                    = 
-                                                    (0x780000U 
-                                                     & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                        << 0x13U));
-                                            } else {
-                                                if (
-                                                    (8U 
-                                                     & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                                    vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x82U;
-                                                    vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                                        = 
-                                                        (0x700000U 
-                                                         & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                            << 0x14U));
-                                                } else {
-                                                    if (
-                                                        (4U 
-                                                         & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                                        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x81U;
-                                                        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                                            = 
-                                                            (0x600000U 
-                                                             & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                                << 0x15U));
-                                                    } else {
-                                                        if (
-                                                            (2U 
-                                                             & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                                            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x80U;
-                                                            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
-                                                                = 
-                                                                (0x400000U 
-                                                                 & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
-                                                                    << 0x16U));
-                                                        } else {
-                                                            if (
-                                                                (1U 
-                                                                 & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
-                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x7fU;
-                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa = 0U;
-                                                            } else {
-                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0U;
-                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa = 0U;
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        __Vtemp27[0U] = 1U;
+        __Vtemp27[1U] = 0U;
+        __Vtemp27[2U] = 0U;
+        __Vtemp27[3U] = 0U;
+        VL_ADD_W(4, __Vtemp28, __Vtemp27, vlTOPp->filter_control__DOT__dc0__DOT__state);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[0U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp28[0U]);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[1U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp28[1U]);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[2U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp28[2U]);
+        vlTOPp->filter_control__DOT__dc0__DOT__next_state[3U] 
+            = ((IData)(vlTOPp->filter_control__DOT__dc0__DOT__done)
+                ? 0U : __Vtemp28[3U]);
     }
     vlTOPp->filter_control__DOT__convert_0__DOT__unsigned_int = 0U;
     if (((((((((0x8dU == (0xffU & (vlTOPp->filter_control__DOT__out 
@@ -1131,11 +1148,6 @@ void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp)
                                     ? ((IData)(1U) 
                                        + (~ (IData)(vlTOPp->filter_control__DOT__convert_0__DOT__unsigned_int)))
                                     : (IData)(vlTOPp->filter_control__DOT__convert_0__DOT__unsigned_int)));
-    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent 
-        = (0x1ffU & ((0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__tap 
-                               >> 0x17U)) + (0xffU 
-                                             & (vlTOPp->filter_control__DOT__fir_0__DOT__data 
-                                                >> 0x17U))));
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
         = (VL_ULL(0xffffffffffff) & ((QData)((IData)(
                                                      ((0U 
@@ -1185,6 +1197,145 @@ void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp)
             ? (IData)(((((QData)((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__product)) 
                          << 0x20U) | (QData)((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__r_acc))) 
                        >> 0x20U)) : (IData)((QData)((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__r_acc))));
+    vlTOPp->filter_control__DOT__fixed_0__DOT__sign 
+        = (1U & ((IData)(vlTOPp->filter_control__DOT__normalized) 
+                 >> 0xfU));
+    vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed 
+        = (0xffffU & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__sign)
+                       ? ((IData)(1U) + (~ (IData)(vlTOPp->filter_control__DOT__normalized)))
+                       : (IData)(vlTOPp->filter_control__DOT__normalized)));
+    vlTOPp->filter_control__DOT__o_float = (((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__sign) 
+                                             << 0x1fU) 
+                                            | (((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__exponent) 
+                                                << 0x17U) 
+                                               | vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa));
+    if ((0x4000U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8dU;
+        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+            = (0x7ffe00U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                            << 9U));
+    } else {
+        if ((0x2000U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8cU;
+            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                = (0x7ffc00U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                << 0xaU));
+        } else {
+            if ((0x1000U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8bU;
+                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                    = (0x7ff800U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                    << 0xbU));
+            } else {
+                if ((0x800U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                    vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x8aU;
+                    vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                        = (0x7ff000U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                        << 0xcU));
+                } else {
+                    if ((0x400U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x89U;
+                        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                            = (0x7fe000U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                            << 0xdU));
+                    } else {
+                        if ((0x200U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x88U;
+                            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                = (0x7fc000U & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                << 0xeU));
+                        } else {
+                            if ((0x100U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x87U;
+                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                    = (0x7f8000U & 
+                                       ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                        << 0xfU));
+                            } else {
+                                if ((0x80U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                    vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x86U;
+                                    vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                        = (0x7f0000U 
+                                           & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                              << 0x10U));
+                                } else {
+                                    if ((0x40U & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x85U;
+                                        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                            = (0x7e0000U 
+                                               & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                  << 0x11U));
+                                    } else {
+                                        if ((0x20U 
+                                             & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x84U;
+                                            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                                = (0x7c0000U 
+                                                   & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                      << 0x12U));
+                                        } else {
+                                            if ((0x10U 
+                                                 & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x83U;
+                                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                                    = 
+                                                    (0x780000U 
+                                                     & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                        << 0x13U));
+                                            } else {
+                                                if (
+                                                    (8U 
+                                                     & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                                    vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x82U;
+                                                    vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                                        = 
+                                                        (0x700000U 
+                                                         & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                            << 0x14U));
+                                                } else {
+                                                    if (
+                                                        (4U 
+                                                         & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                                        vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x81U;
+                                                        vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                                            = 
+                                                            (0x600000U 
+                                                             & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                                << 0x15U));
+                                                    } else {
+                                                        if (
+                                                            (2U 
+                                                             & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                                            vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x80U;
+                                                            vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa 
+                                                                = 
+                                                                (0x400000U 
+                                                                 & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed) 
+                                                                    << 0x16U));
+                                                        } else {
+                                                            if (
+                                                                (1U 
+                                                                 & (IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed))) {
+                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0x7fU;
+                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa = 0U;
+                                                            } else {
+                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__exponent = 0U;
+                                                                vlTOPp->filter_control__DOT__fixed_0__DOT__mantissa = 0U;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
         = (VL_ULL(0xffffffffffff) & ((1U & (IData)(
                                                    (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
@@ -1193,10 +1344,17 @@ void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp)
                                       : (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
                                          << 1U)));
     vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__exponent 
-        = (0x1ffU & (((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent) 
+        = (0x1ffU & ((((0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__tap 
+                                 >> 0x17U)) + (0xffU 
+                                               & (vlTOPp->filter_control__DOT__fir_0__DOT__data 
+                                                  >> 0x17U))) 
                       - (IData)(0x7fU)) + (1U & (IData)(
                                                         (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product 
                                                          >> 0x2fU)))));
+    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__zero 
+        = ((~ (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__Exception)) 
+           & ((0U == (0x7fffffffU & vlTOPp->filter_control__DOT__fir_0__DOT__tap)) 
+              | (0U == (0x7fffffffU & vlTOPp->filter_control__DOT__fir_0__DOT__data))));
     vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_a 
         = ((0U != (0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_a 
                             >> 0x17U))) ? (0x800000U 
@@ -1211,16 +1369,6 @@ void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp)
         = (0xffU & ((vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_a 
                      >> 0x17U) - (vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b 
                                   >> 0x17U)));
-    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa 
-        = (0x7fffffU & ((IData)((vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
-                                 >> 0x18U)) + (1U & 
-                                               ((IData)(
-                                                        (vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised 
-                                                         >> 0x17U)) 
-                                                & (0U 
-                                                   != 
-                                                   (0x7fffffU 
-                                                    & (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised)))))));
     vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_b_add_sub 
         = ((0x17U >= (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__exponent_diff))
             ? (0xffffffU & (((0U != (0xffU & (vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b 
@@ -1235,10 +1383,6 @@ void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp)
                      >> 0x17U)) == (0xffU & ((vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operand_b 
                                               >> 0x17U) 
                                              + (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__exponent_diff))));
-    vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__zero 
-        = ((~ (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__Exception)) 
-           & ((0U == vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa) 
-              & (0U == (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent))));
     vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_add 
         = (((IData)(vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__perform) 
             & (IData)(vlTOPp->filter_control__DOT__fir_0__DOT__add_sub0__DOT__operation_sub_addBar))
@@ -1617,13 +1761,25 @@ void Vfilter_control::_settle__TOP__3(Vfilter_control__Syms* __restrict vlSymsp)
 VL_INLINE_OPT void Vfilter_control::_combo__TOP__4(Vfilter_control__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vfilter_control::_combo__TOP__4\n"); );
     Vfilter_control* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Variables
+    WData/*127:0*/ __Vtemp38[4];
+    WData/*127:0*/ __Vtemp39[4];
+    WData/*127:0*/ __Vtemp40[4];
+    WData/*127:0*/ __Vtemp41[4];
     // Body
+    VL_EXTEND_WI(128,16, __Vtemp38, (IData)(vlTOPp->i_sample));
+    VL_SHIFTR_WWI(128,128,32, __Vtemp39, vlTOPp->filter_control__DOT__dc0__DOT__offset, 0xbU);
+    VL_SUB_W(4, __Vtemp40, __Vtemp38, __Vtemp39);
+    VL_SHIFTL_WWI(128,128,32, __Vtemp41, __Vtemp40, 2U);
+    vlTOPp->filter_control__DOT__normalized = (0xffffU 
+                                               & __Vtemp41[0U]);
     vlTOPp->filter_control__DOT__fixed_0__DOT__sign 
-        = (1U & ((IData)(vlTOPp->i_sample) >> 0xfU));
+        = (1U & ((IData)(vlTOPp->filter_control__DOT__normalized) 
+                 >> 0xfU));
     vlTOPp->filter_control__DOT__fixed_0__DOT__unsigned_fixed 
         = (0xffffU & ((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__sign)
-                       ? ((IData)(1U) + (~ (IData)(vlTOPp->i_sample)))
-                       : (IData)(vlTOPp->i_sample)));
+                       ? ((IData)(1U) + (~ (IData)(vlTOPp->filter_control__DOT__normalized)))
+                       : (IData)(vlTOPp->filter_control__DOT__normalized)));
     vlTOPp->filter_control__DOT__o_float = (((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__sign) 
                                              << 0x1fU) 
                                             | (((IData)(vlTOPp->filter_control__DOT__fixed_0__DOT__exponent) 
@@ -1845,19 +2001,27 @@ void Vfilter_control::_ctor_var_reset() {
     filter_control__DOT__i_ce_local = VL_RAND_RESET_I(1);
     filter_control__DOT__out = VL_RAND_RESET_I(32);
     filter_control__DOT__o_float = VL_RAND_RESET_I(32);
+    filter_control__DOT__normalized = VL_RAND_RESET_I(16);
+    filter_control__DOT__dc0__DOT__gain = VL_RAND_RESET_I(16);
+    VL_RAND_RESET_W(128, filter_control__DOT__dc0__DOT__state);
+    VL_RAND_RESET_W(128, filter_control__DOT__dc0__DOT__next_state);
+    VL_RAND_RESET_W(128, filter_control__DOT__dc0__DOT__offset);
+    VL_RAND_RESET_W(128, filter_control__DOT__dc0__DOT__accumulate);
+    VL_RAND_RESET_W(128, filter_control__DOT__dc0__DOT__mic_out_sext);
+    filter_control__DOT__dc0__DOT__done = VL_RAND_RESET_I(1);
     filter_control__DOT__fixed_0__DOT__exponent = VL_RAND_RESET_I(8);
     filter_control__DOT__fixed_0__DOT__sign = VL_RAND_RESET_I(1);
     filter_control__DOT__fixed_0__DOT__mantissa = VL_RAND_RESET_I(23);
     filter_control__DOT__fixed_0__DOT__unsigned_fixed = VL_RAND_RESET_I(16);
     filter_control__DOT__fir_0__DOT__o_ce = VL_RAND_RESET_I(1);
-    { int __Vi0=0; for (; __Vi0<128; ++__Vi0) {
+    { int __Vi0=0; for (; __Vi0<2048; ++__Vi0) {
             filter_control__DOT__fir_0__DOT__tapmem[__Vi0] = VL_RAND_RESET_I(32);
     }}
     filter_control__DOT__fir_0__DOT__tap = VL_RAND_RESET_I(32);
-    filter_control__DOT__fir_0__DOT__dwidx = VL_RAND_RESET_I(7);
-    filter_control__DOT__fir_0__DOT__didx = VL_RAND_RESET_I(7);
-    filter_control__DOT__fir_0__DOT__tidx = VL_RAND_RESET_I(7);
-    { int __Vi0=0; for (; __Vi0<128; ++__Vi0) {
+    filter_control__DOT__fir_0__DOT__dwidx = VL_RAND_RESET_I(11);
+    filter_control__DOT__fir_0__DOT__didx = VL_RAND_RESET_I(11);
+    filter_control__DOT__fir_0__DOT__tidx = VL_RAND_RESET_I(11);
+    { int __Vi0=0; for (; __Vi0<2048; ++__Vi0) {
             filter_control__DOT__fir_0__DOT__dmem[__Vi0] = VL_RAND_RESET_I(32);
     }}
     filter_control__DOT__fir_0__DOT__data = VL_RAND_RESET_I(32);
@@ -1885,8 +2049,6 @@ void Vfilter_control::_ctor_var_reset() {
     filter_control__DOT__fir_0__DOT__m_0__DOT__sign = VL_RAND_RESET_I(1);
     filter_control__DOT__fir_0__DOT__m_0__DOT__zero = VL_RAND_RESET_I(1);
     filter_control__DOT__fir_0__DOT__m_0__DOT__exponent = VL_RAND_RESET_I(9);
-    filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent = VL_RAND_RESET_I(9);
-    filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa = VL_RAND_RESET_I(23);
     filter_control__DOT__fir_0__DOT__m_0__DOT__product = VL_RAND_RESET_Q(48);
     filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised = VL_RAND_RESET_Q(48);
     filter_control__DOT__convert_0__DOT__unsigned_int = VL_RAND_RESET_I(16);

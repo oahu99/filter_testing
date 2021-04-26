@@ -45,10 +45,10 @@
 `default_nettype	none
 //
 module	slowfil(i_clk, i_reset, i_tap_wr, i_tap, i_ce, i_sample, o_ce, o_result);
-	parameter	LGNTAPS = 7, IW=32, TW=32, OW = IW;
-	parameter	[LGNTAPS:0]	NTAPS = 127; // (1<<LGNTAPS);
+	parameter	LGNTAPS = 11, IW=32, TW=32, OW = IW;
+	parameter	[LGNTAPS:0]	NTAPS = 2047; // (1<<LGNTAPS);
 	parameter	[0:0]		FIXED_TAPS = 1'b1;
-	parameter			INITIAL_COEFFS  = "taps.dat";
+	parameter			INITIAL_COEFFS  = "ryan_test.dat";
 	localparam	MEMSZ = (1<<LGNTAPS);
 	//
 	// Control inputs (wires)

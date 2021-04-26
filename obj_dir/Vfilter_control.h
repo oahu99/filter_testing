@@ -35,12 +35,10 @@ VL_MODULE(Vfilter_control) {
     // Internals; generally not touched by application code
     CData/*0:0*/ filter_control__DOT__i_tap_wr;
     CData/*0:0*/ filter_control__DOT__i_ce_local;
+    CData/*0:0*/ filter_control__DOT__dc0__DOT__done;
     CData/*7:0*/ filter_control__DOT__fixed_0__DOT__exponent;
     CData/*0:0*/ filter_control__DOT__fixed_0__DOT__sign;
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__o_ce;
-    CData/*6:0*/ filter_control__DOT__fir_0__DOT__dwidx;
-    CData/*6:0*/ filter_control__DOT__fir_0__DOT__didx;
-    CData/*6:0*/ filter_control__DOT__fir_0__DOT__tidx;
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__d_ce;
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__p_ce;
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_ce;
@@ -53,13 +51,22 @@ VL_MODULE(Vfilter_control) {
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sign;
     CData/*0:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__zero;
     SData/*15:0*/ filter_control__DOT__i_tap;
+    SData/*15:0*/ filter_control__DOT__normalized;
+    SData/*15:0*/ filter_control__DOT__dc0__DOT__gain;
     SData/*15:0*/ filter_control__DOT__fixed_0__DOT__unsigned_fixed;
+    SData/*10:0*/ filter_control__DOT__fir_0__DOT__dwidx;
+    SData/*10:0*/ filter_control__DOT__fir_0__DOT__didx;
+    SData/*10:0*/ filter_control__DOT__fir_0__DOT__tidx;
     SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__exponent;
-    SData/*8:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__sum_exponent;
     SData/*15:0*/ filter_control__DOT__convert_0__DOT__unsigned_int;
     IData/*31:0*/ filter_control__DOT__impulse;
     IData/*31:0*/ filter_control__DOT__out;
     IData/*31:0*/ filter_control__DOT__o_float;
+    WData/*127:0*/ filter_control__DOT__dc0__DOT__state[4];
+    WData/*127:0*/ filter_control__DOT__dc0__DOT__next_state[4];
+    WData/*127:0*/ filter_control__DOT__dc0__DOT__offset[4];
+    WData/*127:0*/ filter_control__DOT__dc0__DOT__accumulate[4];
+    WData/*127:0*/ filter_control__DOT__dc0__DOT__mic_out_sext[4];
     IData/*22:0*/ filter_control__DOT__fixed_0__DOT__mantissa;
     IData/*31:0*/ filter_control__DOT__fir_0__DOT__tap;
     IData/*31:0*/ filter_control__DOT__fir_0__DOT__data;
@@ -75,12 +82,11 @@ VL_MODULE(Vfilter_control) {
     IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__significand_sub;
     IData/*30:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__sub_diff;
     IData/*24:0*/ filter_control__DOT__fir_0__DOT__add_sub0__DOT__subtraction_diff;
-    IData/*22:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_mantissa;
     QData/*63:0*/ filter_control__DOT__counter;
     QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product;
     QData/*47:0*/ filter_control__DOT__fir_0__DOT__m_0__DOT__product_normalised;
-    IData/*31:0*/ filter_control__DOT__fir_0__DOT__tapmem[128];
-    IData/*31:0*/ filter_control__DOT__fir_0__DOT__dmem[128];
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__tapmem[2048];
+    IData/*31:0*/ filter_control__DOT__fir_0__DOT__dmem[2048];
     
     // LOCAL VARIABLES
     // Internals; generally not touched by application code
@@ -140,7 +146,6 @@ VL_MODULE(Vfilter_control) {
     static void traceChgThis__3(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__4(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceChgThis__5(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__6(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void traceFullThis(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
     static void traceFullThis__1(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
     static void traceInitThis(Vfilter_control__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;

@@ -17,7 +17,11 @@ logic [31:0] out;
 
 logic [31:0] o_float; // original sample converted to floating point representation
 
-fixed_to_float fixed_0 (.i_fixed(i_sample), .o_float);
+logic [15:0] normalized;
+
+remove_dc dc0 (.clk(i_clk), .rst(~i_reset), .mic_in(i_sample), .mic_out(normalized));
+
+fixed_to_float fixed_0 (.i_fixed(normalized), .o_float);
 
 slowfil fir_0 (.i_clk, .i_reset(~i_reset), .i_tap_wr, .i_ce, .i_sample(o_float), .o_result(out), .i_tap);
 
